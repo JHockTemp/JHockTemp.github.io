@@ -78,7 +78,7 @@ img {
 }
 
 /* Title Animation */
-h2:before{
+/*h2:before{
     content: "Professor";
     font-size: 1em;
     -webkit-animation-name: head;
@@ -116,6 +116,7 @@ h2:before{
     100% {font-size:3em;opacity:1; content: "Poet"}
 }
 /* End Title Animation */
+
 .footer ul {
   list-style: none;
   margin-left: 0px;
