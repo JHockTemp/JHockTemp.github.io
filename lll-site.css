@@ -93,6 +93,27 @@ h2:before{
     75% {font-size:3em; opacity:1; content: "STEM Advocate"}
     100% {font-size:3em;opacity:1; content: "Poet"}
 }
+@-moz-keyframes head {
+    0% {font-size: 3em; opacity:1;}
+    25% {font-size:3em; opacity:1; content: "Scholar"}
+    50% {font-size:3em; opacity:1; content: "Daytonian"}
+    75% {font-size:3em; opacity:1; content: "STEM Advocate"}
+    100% {font-size:3em;opacity:1; content: "Poet"}
+}
+@-o-keyframes head {
+    0% {font-size: 3em; opacity:1;}
+    25% {font-size:3em; opacity:1; content: "Scholar"}
+    50% {font-size:3em; opacity:1; content: "Daytonian"}
+    75% {font-size:3em; opacity:1; content: "STEM Advocate"}
+    100% {font-size:3em;opacity:1; content: "Poet"}
+}
+@keyframes head {
+    0% {font-size: 3em; opacity:1;}
+    25% {font-size:3em; opacity:1; content: "Scholar"}
+    50% {font-size:3em; opacity:1; content: "Daytonian"}
+    75% {font-size:3em; opacity:1; content: "STEM Advocate"}
+    100% {font-size:3em;opacity:1; content: "Poet"}
+}
 /* End Title Animation */
 .footer ul {
   list-style: none;
