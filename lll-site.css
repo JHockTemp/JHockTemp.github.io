@@ -81,9 +81,9 @@ img {
 h2:before{
     content: 'Educator';
     font-size: 3em;
-    animation-name: head;
-    animation-duration: 10s;
-    animation-iteration-count: infinite;
+    -webkit-animation-name: head;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
 }
 
 @-webkit-keyframes head {
