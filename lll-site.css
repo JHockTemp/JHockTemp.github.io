@@ -78,21 +78,27 @@ img {
 }
 
 /* Title Animation */
-h2:before{
+/*h2:before{
     content: 'Educator';
     font-size: 3em;
     -webkit-animation-name: head;
     -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
-}
+}*/
 
 @-webkit-keyframes head {
-    0% {font-size: 3em; opacity:1;}
+    0% {font-size: 3em; opacity:1; content: "Educator"}
     25% {font-size:3em; opacity:1; content: "Scholar"}
     50% {font-size:3em; opacity:1; content: "Daytonian"}
     75% {font-size:3em; opacity:1; content: "STEM Advocate"}
     100% {font-size:3em;opacity:1; content: "Poet"}
 }
+.item4 {
+  -webkit-animation-name: head;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+}
+
 @-moz-keyframes head {
     0% {font-size: 3em; opacity:1;}
     25% {font-size:3em; opacity:1; content: "Scholar"}
