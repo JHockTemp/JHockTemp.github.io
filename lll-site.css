@@ -78,13 +78,13 @@ img {
 }
 
 /* Title Animation */
-/*h2:before{
-    content: 'Educator';
+h2:before{
+    content: '';
     font-size: 3em;
     -webkit-animation-name: head;
     -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
-}*/
+}
 
 @-webkit-keyframes head {
     0% {font-size: 3em; opacity:1; content: "Educator"}
@@ -93,7 +93,7 @@ img {
     75% {font-size:3em; opacity:1; content: "STEM Advocate"}
     100% {font-size:3em;opacity:1; content: "Poet"}
 }
-.item4 {
+.h2 {
   -webkit-animation-name: head;
   -webkit-animation-duration: 10s;
   -webkit-animation-iteration-count: infinite;
