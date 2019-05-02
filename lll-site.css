@@ -86,10 +86,10 @@ h2:before{
     animation-iteration-count: infinite;
 }
 
-@keyframes head {
+@-webkit-keyframes head {
     0% {font-size: 3em; opacity:1;}
     25% {font-size:3em; opacity:1; content: "Scholar"}
-    50% {font-size:3em; opacity:1; }
+    50% {font-size:3em; opacity:1; content: "Daytonian"}
     75% {font-size:3em; opacity:1; content: "STEM Advocate"}
     100% {font-size:3em;opacity:1; content: "Poet"}
 }
