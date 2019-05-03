@@ -83,10 +83,6 @@ span {
     ".        .        ."
 }
 
-div > div {
-
-}
-
 .item1 {
   grid-area: name;
 }
