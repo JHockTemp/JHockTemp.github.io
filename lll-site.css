@@ -75,7 +75,7 @@ span {
   grid-gap: 20px;
   /* border: 5px solid var(--red); */
   grid-template-columns: 1fr 1fr auto;
-  grid-template-rows: auto 1fr auto 50px;
+  grid-template-rows: 150px 1fr auto 50px;
   grid-template-areas:
     "name     name    name"
     "bio      bio     image"
@@ -125,46 +125,6 @@ img {
   width: 100%;
   border-radius: 50%;
 }
-
-/* Title Animation */
-/*h2:before{
-    content: "Professor";
-    font-size: 1em;
-    -webkit-animation-name: head;
-    -webkit-animation-duration: 10s;
-    -webkit-animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes head {
-    0% {font-size: 3em; opacity:1; content: "Educator"}
-    25% {font-size:3em; opacity:1; content: "Scholar"}
-    50% {font-size:3em; opacity:1; content: "Daytonian"}
-    75% {font-size:3em; opacity:1; content: "STEM Advocate"}
-    100% {font-size:3em;opacity:1; content: "Poet"}
-}
-
-@-moz-keyframes head {
-    0% {font-size: 3em; opacity:1;}
-    25% {font-size:3em; opacity:1; content: "Scholar"}
-    50% {font-size:3em; opacity:1; content: "Daytonian"}
-    75% {font-size:3em; opacity:1; content: "STEM Advocate"}
-    100% {font-size:3em;opacity:1; content: "Poet"}
-}
-@-o-keyframes head {
-    0% {font-size: 3em; opacity:1;}
-    25% {font-size:3em; opacity:1; content: "Scholar"}
-    50% {font-size:3em; opacity:1; content: "Daytonian"}
-    75% {font-size:3em; opacity:1; content: "STEM Advocate"}
-    100% {font-size:3em;opacity:1; content: "Poet"}
-}
-@keyframes head {
-    0% {font-size: 3em; opacity:1;}
-    25% {font-size:3em; opacity:1; content: "Scholar"}
-    50% {font-size:3em; opacity:1; content: "Daytonian"}
-    75% {font-size:3em; opacity:1; content: "STEM Advocate"}
-    100% {font-size:3em;opacity:1; content: "Poet"}
-}
-/* End Title Animation */
 
 .footer ul {
   list-style: none;
