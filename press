@@ -20,7 +20,7 @@
       <a href="index.html">Home</a>
       <a href="weneedmore.html">We Need More, LLC</a>
       <a href="professor.html">Professor Long</a>
-      <a href="professor.html">Media &amp; Press</a>
+      <a href="press">Media &amp; Press</a>
     </div>
   </div>
 
@@ -39,22 +39,16 @@
     </div>
 
     <div class="item item3">
-      
       <div class="link-card">
-  	    <div class="link-card-link">
-  		    <a href=" ">
-		
-      <p><strong>
-  		New local delivery service bringing creative healthy salads from your Instagram to your doorstep.</strong> 
-		  </p>
-         <p style="color: #EE3233;">
-            >> READ HERE
-         </p>
-  		</a>
-  	</div>
-  	
-</div>
+  				<div class="link-card-link">
+  					<a href="http://theavion.com/nsbe-shines-at-45th-national-convention/">
+							<p><strong>NSBE Shines At 45th National Convention</strong></p>
+         			<p style="color: #EE3233;"> >> CLICK HERE TO READ &#124; The Avion Newspaper</p>
+  					</a>
+  				</div>
+  		</div>
     </div>
+		
     <div class="item item4">
       <img src="lll_cropped.png">
     </div>
