@@ -17,6 +17,10 @@ body {
   /* border: 5px solid var(--red); */
 }
 
+a:link {
+  text-decoration: none;
+}
+
 .overlay {
   height: 100%;
   width: 100%;
