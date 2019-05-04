@@ -17,7 +17,7 @@ body {
   /* border: 5px solid var(--red); */
 }
 
-a:link {
+a:-webkit-any-link {
   text-decoration: none;
 }
 
