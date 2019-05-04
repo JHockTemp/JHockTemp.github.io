@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="lll-site.css">
+   <script src="lll-site.js"></script> 
+  <title>Professor LLL III</title>
+</head>
+
+<body>
+  <div id="Page_Nav" class="overlay">
+
+    <!-- Button to close overlay -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay Content -->
+    <div class="overlay_content">
+      <a href="index.html">Home</a>
+      <a href="weneedmore.html">We Need More, LLC</a>
+      <a href="professor.html">Professor Long</a>
+      <a href="professor.html">Media &amp; Press</a>
+    </div>
+  </div>
+
+  <span style="font-size: 30px; cursor: pointer" onclick="openNav() ">&#9776;</span>
+  <!-- END PAGE NAV OVERLAY -->
+  
+  <div class="container">
+    <div class="item item1">
+      <h1>Academic Work</h1>
+      <h2 class="item item2">
+        <span
+          class="txt-rotate"
+          data-period="2000"
+          data-rotate='[ "Teaching", "Research", "Service" ]'></span>
+      </h2>
+    </div>
+
+    <div class="item item3">
+      <p>Dr. Leroy L. Long III is an Assistant Professor of Engineering Fundamentals at Embry-Riddle Aeronautical University in Daytona Beach, FL. He earned his PhD in STEM Education with a focus on Engineering Education within the Department of Teaching and Learning at The Ohio State University (OSU). He earned his Master’s in Mechanical Engineering at OSU and his Bachelors in Mechanical Engineering at Wright State University. Dr. Long is a native of Dayton, OH. He is a proud graduate of Dayton Public Schools and Wright STEPP - Wright State University's Science, Technology, and Engineering Preparatory Program (STEPP). </p>
+
+      <p class="book_link">
+        <a href="http://faculty.erau.edu/Leroy.Long">View my full faculty profile</a>
+      </p>
+      <p> Dr. Long’s research interests include: (a) students' technology use, (b) diversity and inclusion, as well as (c) student retention and success, with a particular focus on students in STEM fields. He has helped to lead research, funded by the NCAA Innovations in Research and Practice Grant, to improve the well-being of the student-athlete. Dr. Long has also assisted with research, funded by NSF, to study factors that broaden minority student participation and success in STEM fields. He has conducted and published research with the Movement Lab and Center for Higher Education Enterprise (CHEE) at OSU. Most of Dr. Long's research has focused on the academic and social experiences of Black and Latino men in engineering and related fields. Due to his strong belief in research to practice, he has produced numerous infographics related to his work. </p>
+      <p> Dr. Long has taught undergraduates in the First-Year Engineering Program and Department of Mechanical Engineering at OSU. He has served as a facilitator for both the University Center for the Advancement of Teaching (UCAT) and Young Scholars Program (YSP) at OSU. Furthermore, Dr. Long has worked in industry at Toyota through participation in INROADS. He has a high record of service with organizations such as the American Society of Engineering Education (ASEE) and National Society of Black Engineers (NSBE).</p>
+      
+    <div class="item item4">
+      <img src="lll_cropped.png">
+    </div>
+
+    <div class="item footer">
+      <footer>
+        <ul>
+          <li><a href="mailto:leroy.long@erau.edu">Email</a></li>
+          <li>&#124;</li>
+          <li><a href="https://www.facebook.com/leroy.long.9">Facebook</a></li>
+          <li>&#124;</li>
+          <li><a href="https://twitter.com/LLLIIIPhD">Twitter</a></li>
+          <li>&#124;</li>
+          <li><a href="https://www.instagram.com/lllthreephd/">Instagram</a></li>
+        </ul>
+      </footer>
+    <div>
+  </div>
+      
+  <script>
+    /* Open */
+    function openNav() {
+      document.getElementById("Page_Nav").style.display = "block";
+    }
+
+    /* Close */
+    function closeNav() {
+      document.getElementById("Page_Nav").style.display = "none";
+    }
+  </script> 
+      
+</body>
+</html>
