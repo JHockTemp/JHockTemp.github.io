@@ -16,7 +16,16 @@
   /* border: 5px solid var(--red); 
 } */
 
-.home_bg, .prof_bg, .press_bg body {
+.home_bg body {
+  background-image: url("lll_cropped.png");
+  background-attachment: fixed;
+  background-position: 125% 100%;
+  background-size: 50%;
+  margin: 3% 5%;
+  background-repeat: no-repeat;
+}
+
+.prof_bg body {
   background-image: url("lll_cropped.png");
   background-attachment: fixed;
   background-position: 125% 100%;
@@ -27,6 +36,15 @@
 
 .llc_bg body {
   background-image: url("Leroy_OSU.png");
+  background-attachment: fixed;
+  background-position: 125% 100%;
+  background-size: 50%;
+  margin: 3% 5%;
+  background-repeat: no-repeat;
+}
+
+.press_bg body {
+  background-image: url("lll_cropped.png");
   background-attachment: fixed;
   background-position: 125% 100%;
   background-size: 50%;
