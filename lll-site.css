@@ -96,7 +96,7 @@ span {
   grid-gap: 20px;
   /* border: 5px solid var(--red); */
   grid-template-columns: 1fr 1fr auto;
-  grid-template-rows: 150px 1fr auto 50px;
+  grid-template-rows: 200px 1fr auto 50px;
   grid-template-areas:
     "name     name    name"
     "bio      bio     image"
