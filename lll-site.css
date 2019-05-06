@@ -16,7 +16,7 @@
   /* border: 5px solid var(--red); 
 } */
 
-.home_bg body {
+.home_bg .prof_bg .press_bg body {
   background-image: url("lll_cropped.png");
   background-attachment: fixed;
   background-position: 125% 100%;
