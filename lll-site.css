@@ -202,7 +202,7 @@ img {
       "footer footer"
     }
 
-  .home_bg, .prof_bg, .llc_bg, .press_bg {
+  .home_bg body, .prof_bg body, .llc_bg body, .press_bg body {
       background-image: url("");
     }
 
