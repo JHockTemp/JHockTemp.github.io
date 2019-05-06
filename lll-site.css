@@ -7,14 +7,21 @@
 }
 
 body {
-  background-image: url("lll_cropped.png");
   background-attachment: fixed;
   background-position: 125% 100%;
-  background-size: 65%;
+  background-size: 50%;
   margin: 3% 5%;
   background-repeat: no-repeat;
   background-color: #ddd;
   /* border: 5px solid var(--red); */
+}
+
+.home_bg {
+  background-image: url("lll_cropped.png");
+}
+
+.llc_bg {
+  background-image: url("Leroy_OSU.png");
 }
 
 a:-webkit-any-link {
