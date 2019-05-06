@@ -18,10 +18,22 @@ body {
 
 .home_bg {
   background-image: url("lll_cropped.png");
+  background-attachment: fixed;
+  background-position: 125% 100%;
+  background-size: 50%;
+  margin: 3% 5%;
+  background-repeat: no-repeat;
+  background-color: #ddd;
 }
 
 .llc_bg {
   background-image: url("Leroy_OSU.png");
+  background-attachment: fixed;
+  background-position: 125% 100%;
+  background-size: 50%;
+  margin: 3% 5%;
+  background-repeat: no-repeat;
+  background-color: #ddd;
 }
 
 a:-webkit-any-link {
