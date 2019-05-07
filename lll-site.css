@@ -54,6 +54,12 @@
 
 a:-webkit-any-link {
   text-decoration: none;
+  color: var(--blue);
+}
+
+a:hover-webkit-any-link {
+  color: var(--blue2);
+  text-decoration: underline;
 }
 
 .overlay {
