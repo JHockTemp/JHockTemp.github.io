@@ -57,7 +57,7 @@ a:-webkit-any-link {
   color: var(--blue);
 }
 
-a:hover-webkit-any-link {
+.book_link a:hover {
   color: var(--blue2);
   text-decoration: underline;
 }
