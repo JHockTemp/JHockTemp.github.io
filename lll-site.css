@@ -52,7 +52,7 @@
   background-repeat: no-repeat;
 }
 
-a:-webkit-any-link {
+a, a:-webkit-any-link {
   text-decoration: none;
   color: var(--blue);
 }
