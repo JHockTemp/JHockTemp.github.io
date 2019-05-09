@@ -13,7 +13,7 @@
   margin: 3% 5%;
   background-repeat: no-repeat;
   background-color: #ddd;
-  /* border: 5px solid var(--red); 
+  /* border: 5px solid var(--red);
 } */
 
 .home_bg body {
@@ -112,13 +112,12 @@ span {
     font-size 40px;
     top: 15px;
     right: 35px;
-  } 
+  }
 }
 
 .container {
   display: grid;
   grid-gap: 20px;
-  /* border: 5px solid var(--red); */
   grid-template-columns: 1fr 1fr auto;
   grid-template-rows: 200px 1fr auto 50px;
   grid-template-areas:
@@ -221,7 +220,7 @@ img {
     }
   .llc_bg body {
       background-image: url("");
-    } 
+    }
   .press_bg body {
       background-image: url("");
     }
@@ -242,7 +241,7 @@ img {
 .web-link{
     color: #EE3233;
   }
-  
+
   .link-card{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 30px 0 30px 0;
@@ -267,7 +266,7 @@ img {
     padding-right: 10px;
     margin-right: 10px;
   }
-  
+
   .link-red {
     color: red;
   }
