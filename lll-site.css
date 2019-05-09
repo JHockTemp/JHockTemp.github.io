@@ -181,6 +181,13 @@ img {
   border-radius: 0%;
 }
 
+.donations {
+  height: 300px;
+}
+.paypal {
+  text-align: center;
+}
+
 .footer ul {
   list-style: none;
   margin-left: 0px;
