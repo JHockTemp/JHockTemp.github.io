@@ -210,7 +210,9 @@ img {
   color: var(--red);
   font-family: sans-serif;
 }
-
+.footer p {
+  font-size: 0.8em;
+}
 .footer a:hover {
   color: var(--blue2);
 }
