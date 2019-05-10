@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="lll-site.css">
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.js"></script>
   <title>We Need More, LLC</title>
 </head>
 
@@ -75,7 +77,44 @@
         </div>
     </div>
       <!-- END DONATION BUTTONS -->
-			<div class="llc_photos">
+      <!-- START SLIDESHOW -->
+      <div id="slideshow">
+          <div>
+            <img src="Images/llc.png">
+          </div>
+          <div>
+            <img src="Images/llc1.png">
+          </div>
+          <div>
+            <img src="Images/llc2.png">
+          </div>
+          <div>
+            <img src="Images/llc3.png">
+          </div>
+          <div>
+            <img src="Images/llc4.png">
+          </div>
+  <!--        <div>
+            <img src="Images/grad9.png">
+          </div>
+          <div>
+            <img src="Images/grad1.png">
+          </div>
+          <div>
+            <img src="Images/grad4.png">
+          </div>
+          <div>
+            <img src="Images/grad7.png">
+          </div>
+          <div>
+            <img src="Images/grad5.png">
+          </div>
+          <div>
+            <img src="Images/grad6.png">
+          </div> -->
+      </div>
+    </div>
+      <!--<div class="llc_photos">
 				<img src="llc_2.png" alt="Group Photo" height="60" width="60">
 			</div>
       <div class="llc_photos">
@@ -87,7 +126,7 @@
       <div class="llc_photos">
 				<img src="stem3.png" alt="Group Photo" height="60" width="60">
 			</div>
-		</div>
+		</div> -->
 		<!-- END of item3 div -->
     <div class="item item4">
       <img class="mobile_image" src="leroyosu.png">
@@ -122,6 +161,18 @@
     function closeNav() {
       document.getElementById("Page_Nav").style.display = "none";
     }
+
+    /*SLIDESHOW */
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function() {
+      $('#slideshow > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+    }, 3000);
   </script>
 
 </body>
