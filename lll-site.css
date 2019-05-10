@@ -302,7 +302,7 @@ img {
 
 @media (max-width: 768px) {
   .container {
-    grid-template-rows: auto 175px;
+    grid-template-rows: auto;
     grid-template-areas:
       "image image"
       "name name"
