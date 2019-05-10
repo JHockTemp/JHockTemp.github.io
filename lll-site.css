@@ -4,6 +4,7 @@
   --black: #2A3132;
   --red: #763626;
   --red40: #763626CC;
+  text-decoration: none;
 }
 
 /*body {
@@ -240,7 +241,9 @@ img {
     font-size: 15px;
     width: 100%;
 }
-
+.link-card-link a {
+  text-decoration: none;
+}
 .link-card-link p {
   	color: #000;
     padding-right: 10px;
