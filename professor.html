@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="lll-site.css">
   <script src="lll-site.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
   <title>Professor LLL III</title>
 </head>
 
@@ -75,11 +76,39 @@
       <!-- END INFOGRAPHICS -->
 
       <!-- START SLIDESHOW -->
-      <div class="slideshow_container">
-          <div class="w3-content w3-section" style="max-width:500px">
-            <img class="mySlides" src="imagess/14869.jpeg" style="width:100%">
-            <img class="mySlides" src="images/14903.jpeg" style="width:100%">
-            <img class="mySlides" src="images/grad.jpeg" style="width:100%">
+      <div id="slideshow">
+          <div>
+            <img src="images/grad11.png">
+          </div>
+          <div>
+            <img src="images/grad10.png">
+          </div>
+          <div>
+            <img src="images/grad8.png">
+          </div>
+          <div>
+            <img src="images/grad2.png">
+          </div>
+          <div>
+            <img src="images/grad3.png">
+          </div>
+          <div>
+            <img src="images/grad9.png">
+          </div>
+          <div>
+            <img src="images/grad1.png">
+          </div>
+          <div>
+            <img src="images/grad4.png">
+          </div>
+          <div>
+            <img src="images/grad7.png">
+          </div>
+          <div>
+            <img src="images/grad5.png">
+          </div>
+          <div>
+            <img src="images/grad6.png">
           </div>
       </div>
     </div>
@@ -115,6 +144,18 @@
     function closeNav() {
       document.getElementById("Page_Nav").style.display = "none";
     }
+
+    /*SLIDESHOW */
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function() {
+      $('#slideshow > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+    }, 3000);
   </script>
 
 </body>
