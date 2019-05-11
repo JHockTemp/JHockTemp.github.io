@@ -148,6 +148,11 @@ span {
   width: 250px;
   height: 400px;
 }
+.llc_book_cover {
+  border: solid 1px;
+  width: 150px;
+  height: 250px;
+}
 
 .item4 {
   display: none;
