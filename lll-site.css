@@ -200,7 +200,7 @@ img {
 }
 
 .donations {
-  height: 300px;
+  height: 200px;
 }
 .paypal {
   text-align: center;
@@ -267,7 +267,7 @@ img {
 
 /* SLIDESHOW STYLING */
 #slideshow {
-  margin: 0px auto;
+  margin: 50px auto;
   position: relative;
   /*width: 480px;*/
   height: 400px;
