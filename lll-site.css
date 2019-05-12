@@ -356,7 +356,7 @@ button.collapsible::after {
       "footer footer"
     }
   #llc_bg .container {
-    grid-template-rows: auto 275px auto;
+    grid-template-rows: auto 250px auto;
   }
 
   .home_bg body {
