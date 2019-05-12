@@ -355,6 +355,9 @@ button.collapsible::after {
       "bio bio"
       "footer footer"
     }
+  #llc_bg .container {
+    grid-template-rows: auto 275px auto;
+  }
 
   .home_bg body {
       background-image: url("");
