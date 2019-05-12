@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="allpub_bg">
+<html lang="en" class="press_bg">
 
 <head>
   <meta charset="UTF-8">
@@ -29,7 +29,7 @@
 
   <div class="container">
     <div class="item item1">
-      <h1>Publications, Media &amp; Press</h1>
+      <h1>All Papers &amp; Press</h1>
       <h2 class="item item2">
         <span
           class="txt-rotate"
@@ -39,6 +39,17 @@
     </div>
 
     <div class="item item3">
+        <!-- START PRESS CARDS -->
+
+		    <!-- END PRESS LINK CARDS -->
+        <!-- START PAPERS -->
+        <button class="collapsible">Google Scholar</button>
+        <div class="papers">
+          <p>
+            <a href="https://scholar.google.com/citations?user=-c6E1zIAAAAJ&hl=en">Full list of papers on Google Scholar</a>
+          </p>
+        </div>
+        <!-- END PAPERS -->
         <!-- START PRESS LINKS -->
         <button class="collapsible">Media &amp; Press</button>
         <div class="press_content">
@@ -72,19 +83,9 @@
           <li><a href="http://www.wired.com/2013/01/human-gait-optimization/"><i>Human Gait Optimized for Efficiency</i> by Lizzie Wade</a></li>
 
           <li><a href="http://www.eurekalert.org/pub_releases/2013-01/osu-saw013013.php"><i>Study: Alternate walking and running to save energy, maintain endurance</i> by Pam Frost Gorder</a></li>
-        </ul>
-      </div>
-		    <!-- END PRESS LINKS-->
-
-        <!-- START PAPERS -->
-        <button class="collapsible">Google Scholar</button>
-        <div class="papers">
-          <p>
-            <a href="https://scholar.google.com/citations?user=-c6E1zIAAAAJ&hl=en">Full list of papers on Google Scholar</a>
-          </p>
+          </ul>
         </div>
-        <!-- END PAPERS -->
-
+		    <!-- END PRESS LINKS-->
         <!-- START INFOGRAPHICS -->
         <button class="collapsible">Infographics</button>
         <div class="infographics">
@@ -103,7 +104,8 @@
           </ul>
         </div>
         <!-- END INFOGRAPHICS -->
-    </div>
+
+    </div> <!-- END item3 div -->
 
     <div class="item item4">
       <img class="mobile_image" src="leroy_prof.png" alt="Professor Leroy">
@@ -137,22 +139,21 @@
     function closeNav() {
       document.getElementById("Page_Nav").style.display = "none";
     }
-
-    /* Collapsible */
+    /* COLLAPSIBLE */
     var coll = document.getElementsByClassName("collapsible");
-var i;
+    var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
     }
-  });
-}
   </script>
 
 </body>
