@@ -394,7 +394,7 @@ button.collapsible::after {
 
 @media (max-width: 359px) {
   .container {
-    grid-template-rows: auto 275px auto;
+    grid-template-rows: auto 350px auto;
     grid-template-areas:
       "image image"
       "name name"
