@@ -391,3 +391,22 @@ button.collapsible::after {
       grid-template-rows: auto 250px auto;
     }
 }
+
+@media (max-width: 359px) {
+  .container {
+    grid-template-rows: auto 275px auto;
+    grid-template-areas:
+      "image image"
+      "name name"
+      "bio bio"
+      "footer footer";
+    margin-left: 10px;
+    }
+
+    #llc_bg .container {
+      grid-template-rows: auto 250px auto;
+    }
+    #llc_bg h1 {
+      font-size: 3em;
+    }
+}
