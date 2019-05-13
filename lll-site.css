@@ -345,6 +345,15 @@ button.collapsible::after {
     max-height: 400px;
   }
 } */
+@media (min-width: 360px) and (max-width: 413px) {
+  .container {
+    grid-template-rows: auto 275px auto;
+    grid-template-areas:
+      "image image"
+      "name name"
+      "bio bio"
+      "footer footer"
+    }
 
 @media (max-width: 768px) {
   .container {
