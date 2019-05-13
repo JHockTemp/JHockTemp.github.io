@@ -374,10 +374,20 @@ button.collapsible::after {
       "image image"
       "name name"
       "bio bio"
-      "footer footer"
+      "footer footer";
+    margin-left: 10px; 
     }
 
     #llc_bg .container {
-      grid-template-rows: auto 350px auto;
+      grid-template-rows: auto 150px auto;
+    }
+    #llc_bg h1 {
+      font-size: 3em;
+    }
+    #prof_bg .container, #press_bg .container {
+      grid-template-rows: auto 200px auto;
+    }
+    #allpress_bg .container {
+      grid-template-rows: auto 250px auto;
     }
 }
