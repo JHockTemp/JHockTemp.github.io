@@ -17,7 +17,7 @@
   /* border: 5px solid var(--red);
 } */
 
-.home_bg body {
+#home_bg body {
   background-image: url("lll_cropped.png");
   background-attachment: fixed;
   background-position: 125% 100%;
@@ -26,7 +26,7 @@
   background-repeat: no-repeat;
 }
 
-.prof_bg body {
+#prof_bg body {
   background-image: url("lll_cropped.png");
   background-attachment: fixed;
   background-position: 125% 100%;
@@ -35,7 +35,7 @@
   background-repeat: no-repeat;
 }
 
-.llc_bg body {
+#llc_bg body {
   background-image: url("Leroy_OSU.png");
   background-attachment: fixed;
   background-position: 232% 100%;
@@ -44,7 +44,7 @@
   background-repeat: no-repeat;
 }
 
-.press_bg body {
+#press_bg body {
   background-image: url("leroy_prof.png");
   background-attachment: fixed;
   background-position: 125% 100%;
@@ -316,45 +316,8 @@ button.collapsible::after {
   overflow: hidden;
   background-color: #f1f1f1;
 }
-/* @media (max-width: 600px) {
-  .container {
-    grid-template-rows: 1fr auto 1fr 1fr;
-    grid-template-columns: 414px;
-    grid-template-areas:
-      "image"
-      "name"
-      "bio"
-      "footer"
-  }
 
-  .home_bg body {
-      background-image: url("");
-    }
-  .prof_bg body {
-      background-image: url("");
-    }
-  .llc_bg body {
-      background-image: url("");
-    }
-  .press_bg body {
-      background-image: url("");
-    }
-
-  #slideshow {
-    max-width: 400px;
-    max-height: 400px;
-  }
-} */
-@media (min-width: 360px) and (max-width: 413px) {
-  .container {
-    grid-template-rows: auto 275px auto;
-    grid-template-areas:
-      "image image"
-      "name name"
-      "bio bio"
-      "footer footer"
-    }
-
+/* MEDIA QUERIES: iPhone X and up*/
 @media (max-width: 768px) {
   .container {
     grid-template-rows: auto 200px auto;
@@ -370,16 +333,16 @@ button.collapsible::after {
   #allpub_bg .container {
     grid-template-rows: auto 300px auto;
   }
-  .home_bg body {
+  #home_bg body {
       background-image: url("");
     }
-  .prof_bg body {
+  #prof_bg body {
       background-image: url("");
     }
-  .llc_bg body {
+  #llc_bg body {
       background-image: url("");
     }
-  .press_bg body {
+  #press_bg body {
       background-image: url("");
     }
 
@@ -401,4 +364,20 @@ button.collapsible::after {
     height: 10%;
     width: auto;
   }
+}
+
+/* MEDIA QUERY: Galaxy S8 screens */
+@media (min-width: 360px) and (max-width: 413px) {
+  .container {
+    grid-template-rows: auto 275px auto;
+    grid-template-areas:
+      "image image"
+      "name name"
+      "bio bio"
+      "footer footer"
+    }
+
+    #llc_bg .container {
+      grid-template-rows: auto 350px auto;
+    }
 }
