@@ -375,11 +375,11 @@ button.collapsible::after {
       "name name"
       "bio bio"
       "footer footer";
-    margin-left: 10px; 
+    margin-left: 10px;
     }
 
     #llc_bg .container {
-      grid-template-rows: auto 150px auto;
+      grid-template-rows: auto 200px auto;
     }
     #llc_bg h1 {
       font-size: 3em;
