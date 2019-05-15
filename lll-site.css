@@ -413,4 +413,7 @@ button.collapsible::after {
     #llc_bg h1 {
       font-size: 3em;
     }
+    #home_bg h1{
+      font-size:3em;
+    }
 }
