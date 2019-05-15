@@ -29,8 +29,8 @@
 #prof_bg body {
   background-image: url("Images/lll1.png");
   background-attachment: fixed;
-  background-position: 125% 100%;
-  background-size: 50%;
+  background-position: 100% 100%;
+  background-size: 25%;
   margin: 3% 5%;
   background-repeat: no-repeat;
 }
