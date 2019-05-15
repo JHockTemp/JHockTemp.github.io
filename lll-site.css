@@ -371,7 +371,7 @@ button.collapsible::after {
 }
 
 /* MEDIA QUERY: Galaxy S8 screens */
-@media (min-width: 360px) and (max-width: 413px) {
+@media (min-width: 361px) and (max-width: 413px) {
   .container {
     grid-template-rows: auto 275px auto;
     grid-template-areas:
@@ -396,7 +396,7 @@ button.collapsible::after {
     }
 }
 
-@media (max-width: 359px) {
+@media (max-width: 360px) {
   .container {
     grid-template-rows: auto 350px auto;
     grid-template-areas:
