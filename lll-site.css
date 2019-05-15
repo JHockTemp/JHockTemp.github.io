@@ -53,6 +53,10 @@
   background-repeat: no-repeat;
 }
 
+#allpress_bg body {
+  margin: 20px;
+}
+
 a, a:-webkit-any-link {
   text-decoration: none;
   color: var(--blue);
