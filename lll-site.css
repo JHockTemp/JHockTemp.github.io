@@ -421,4 +421,7 @@ button.collapsible::after {
       font-size:3em;
       grid-template-rows: auto 200px auto;
     }
+    #home_bg h1 {
+      font-size:3em;
+    }
 }
