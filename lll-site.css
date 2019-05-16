@@ -401,15 +401,6 @@ button.collapsible::after {
 }
 
 @media (max-width: 360px) {
-  .container {
-    grid-template-rows: auto 350px auto;
-    grid-template-areas:
-      "image image"
-      "name name"
-      "bio bio"
-      "footer footer";
-    margin-left: 10px;
-    }
 
     #llc_bg .container {
       grid-template-rows: auto 250px auto;
@@ -423,4 +414,13 @@ button.collapsible::after {
     #home_bg h1 {
       font-size:3em;
     }
+    .container {
+      grid-template-rows: auto 350px auto;
+      grid-template-areas:
+        "image image"
+        "name name"
+        "bio bio"
+        "footer footer";
+      margin-left: 10px;
+      }
 }
