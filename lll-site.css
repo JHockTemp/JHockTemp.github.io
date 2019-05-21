@@ -423,14 +423,7 @@ button.collapsible::after {
     #allpress_bg .container {
       grid-template-rows: auto 175px auto;
     }
-    
-    .mobile_image {
-      height: 200px;
-      width: 200px;
-      border-radius: 50%;
-      justify-self: center;
-    }
-  
+
     .container {
       grid-template-rows: auto 350px auto;
       grid-template-areas:
