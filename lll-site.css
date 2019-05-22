@@ -20,8 +20,8 @@
 #home_bg body {
   background-image: url("lll_cropped.png");
   background-attachment: fixed;
-  background-position: 125% 100%;
-  background-size: 50%;
+  background-position: 150% 100%;
+  background-size: 75%;
   margin: 3% 5%;
   background-repeat: no-repeat;
 }
@@ -29,8 +29,8 @@
 #prof_bg body {
   background-image: url("Images/lll1.png");
   background-attachment: fixed;
-  background-position: 100% 100%;
-  background-size: 25%;
+  background-position: 105% 100%;
+  background-size: 40%;
   margin: 3% 5%;
   background-repeat: no-repeat;
 }
