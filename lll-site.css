@@ -205,7 +205,6 @@ img {
 
 .mobile_image {
   height: 300px;
-  width: auto;
   border-radius: 50%;
   place-self: center;
 }
