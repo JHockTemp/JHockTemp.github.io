@@ -48,7 +48,7 @@
   background-image: url("leroy_prof.png");
   background-attachment: fixed;
   background-position: 100% 100%;
-  background-size: 25%;
+  background-size: 50%;
   margin: 3% 5%;
   background-repeat: no-repeat;
 }
@@ -325,7 +325,7 @@ button.collapsible::after {
   background-color: #f1f1f1;
 }
 
-/* MEDIA QUERIES: iPhone X and up*/
+/* MEDIA QUERIES: iPhone X and up */
 @media (max-width: 768px) {
   .container {
     grid-template-rows: auto 200px auto;
