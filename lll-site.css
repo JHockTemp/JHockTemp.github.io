@@ -204,9 +204,10 @@ img {
 }
 
 .mobile_image {
-  height: auto;
-  width: 100%;
+  height: 300px;
+  width: auto;
   border-radius: 50%;
+  place-self: center;
 }
 .prof_mobile_image {
   height: 300px;
