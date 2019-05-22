@@ -1,10 +1,11 @@
 :root {
-  --blue: #90AFC5;
+  --blue: #253BFF /*#328CC1 or #90AFC5*/;
   --gold: #DCAE1D;
   --black: #0b0b0b /*#2A3132*/;
   --white: #f6f6f6;
   --red: #670404 /*#763626*/;
   --red40: #763626CC;
+  --box: /*rgba(220,174,29,0.5)*/ rgb(0,48,63,1);
   text-decoration: none;
 }
 
@@ -60,7 +61,7 @@
 
 a, a:-webkit-any-link {
   text-decoration: none;
-  color: var(--red);
+  color: var(--blue);
 }
 
 .book_link a:hover {
@@ -148,11 +149,26 @@ span {
   font-family: serif;
 }
 
+.button {
+  background-color: black;
+  border: none;
+  color: var(--gold) !important;
+  text-align: center;
+  text-decoration: none;
+  font-size: ;
+  border-radius: 16px;
+  padding: 10px 20px;
+  margin: 4px 0px;
+}
+.button:hover {
+
+}
+
 .book_cover {
   /*border: solid 1px;*/
   width: 250px;
   height: 400px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(220, 174, 29, 0.2), 0 6px 20px 0 rgba(220, 174, 29, 0.9);
 }
 .llc_book_cover {
   border: solid 1px;
@@ -225,12 +241,13 @@ img {
 .footer ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--red);
+  color: var(--blue);
   font-family: sans-serif;
 }
 .footer p {
   font-size: 0.8em;
   font-family: sans-serif;
+  color: var(--red);
 }
 .footer a:hover {
   color: var(--blue2);
@@ -266,7 +283,7 @@ img {
   }
 
 .link-card{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 8px 0 var(--box), 0 6px 20px 0 rgba(0,0,0,0.19);
     margin: 30px 0 30px 0;
     overflow: hidden;
 }
