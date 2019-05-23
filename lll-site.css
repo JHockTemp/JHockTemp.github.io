@@ -64,6 +64,27 @@ a, a:-webkit-any-link {
   color: var(--blue);
 }
 
+.mobile_image {
+  height: 300px;
+  border-radius: 50%;
+  place-self: center;
+  border: 1px solid var(--gold);
+}
+.home_mobile_image {
+  height: auto;
+  width: 100%;
+  place-self: center;
+  border-radius: 50%;
+}
+
+.prof_mobile_image {
+  height: 300px;
+  width: auto;
+  border-radius: 50%;
+  place-self: center;
+  border: 1px solid var(--gold);
+}
+
 .book_link a:hover {
   color: var(--blue2);
   text-decoration: underline;
@@ -201,18 +222,6 @@ h2 {
 img {
   height: auto;
   width: 100%;
-}
-
-.mobile_image {
-  height: 300px;
-  border-radius: 50%;
-  place-self: center;
-}
-.prof_mobile_image {
-  height: 300px;
-  width: auto;
-  border-radius: 50%;
-  place-self: center;
 }
 
 .link-card img {
@@ -388,7 +397,7 @@ button.collapsible::after {
   .item4 {
     display: grid;
     grid-area: image;
-    height: 10%;
+    height: 100%;
     width: auto;
   }
 }
