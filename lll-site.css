@@ -431,7 +431,7 @@ button.collapsible::after {
     #llc_bg .container {
       grid-template-rows: auto 200px auto;
     }
-    #llc_bg h1 {
+    #llc_bg h1, #allpress_bg h1 {
       font-size: 3em;
     }
     #prof_bg .container, #press_bg .container {
@@ -454,7 +454,7 @@ button.collapsible::after {
       grid-template-rows: auto 200px auto;
     }
     #home_bg h1, #allpub_bg h1, #prof_bg h1, #press_bg h1, #allpress_bg h1 {
-      font-size:3em;
+      font-size: 3em;
     }
     #allpub_bg .container {
       grid-template-rows: auto 200px auto;
