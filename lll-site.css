@@ -68,14 +68,14 @@ a, a:-webkit-any-link {
   height: 300px;
   border-radius: 50%;
   place-self: center;
-  border: 1px solid var(--gold);
+  border-bottom: 2px solid var(--gold);
 }
 .home_mobile_image {
   height: auto;
   width: 100%;
   place-self: center;
   border-radius: 50%;
-  border: 1px solid var(--gold);
+  border-bottom: 2px solid var(--gold);
 }
 
 .prof_mobile_image {
@@ -83,7 +83,7 @@ a, a:-webkit-any-link {
   width: auto;
   border-radius: 50%;
   place-self: center;
-  border: 1px solid var(--gold);
+  border-bottom: 2px solid var(--gold);
 }
 
 .book_link a:hover {
@@ -169,21 +169,6 @@ span {
   max-width: 500px;
   font-size: 1.2em;
   font-family: serif;
-}
-
-.button {
-  background-color: black;
-  border: none;
-  color: var(--gold) !important;
-  text-align: center;
-  text-decoration: none;
-  font-size: ;
-  border-radius: 16px;
-  padding: 10px 20px;
-  margin: 4px 0px;
-}
-.button:hover {
-
 }
 
 .bookstore {
