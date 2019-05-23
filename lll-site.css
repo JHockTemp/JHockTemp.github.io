@@ -245,6 +245,9 @@ img {
 .paypal form {
   height: 50px;
 }
+.paypal form img {
+  height: inherit;
+}
 
 .footer ul {
   list-style: none;
@@ -263,7 +266,7 @@ img {
   font-family: sans-serif;
 }
 .footer p {
-  font-size: 0.8em;
+  font-size: 0.6em;
   font-family: sans-serif;
   color: var(--red);
 }
@@ -292,7 +295,8 @@ img {
 
 /* LLC DONATIONS SECTION */
 .disclaimer {
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 /* PRESS PAGE LINK STYLING */
