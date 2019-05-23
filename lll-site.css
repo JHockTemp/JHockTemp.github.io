@@ -237,6 +237,9 @@ img {
 .paypal {
   text-align: center;
 }
+.paypal form {
+  height: 50px;
+}
 
 .footer ul {
   list-style: none;
@@ -388,7 +391,8 @@ button.collapsible::after {
   }
 
   #slideshow {
-    height: 293px;
+    margin: 0px;
+    height: 192px;
   }
 
   #slideshow > div {
@@ -462,4 +466,8 @@ button.collapsible::after {
         "footer footer";
       margin-left: 10px;
       }
+
+    .disclaimer {
+      margin-top: 0px;
+    }
 }
