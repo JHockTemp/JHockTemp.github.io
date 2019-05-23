@@ -71,10 +71,11 @@ a, a:-webkit-any-link {
   border: 1px solid var(--gold);
 }
 .home_mobile_image {
-  height: auto;
+  height: 200px;
   width: 100%;
   place-self: center;
   border-radius: 50%;
+  border: 1px solid var(--gold);
 }
 
 .prof_mobile_image {
