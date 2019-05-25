@@ -461,6 +461,10 @@ button.collapsible::after {
       margin-left: 10px;
       }
 
+    .item3 {
+      margin-top:50px;
+    }
+    
     .disclaimer {
       margin-top: 0px;
     }
