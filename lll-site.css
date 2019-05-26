@@ -392,9 +392,8 @@ button.collapsible::after {
     margin: 0px;
     height: 315px;
   }
-
-  #slideshow > div {
-
+  #prof_bg #slideshow {
+    height: 235px;
   }
 
   .item4 {
@@ -428,6 +427,10 @@ button.collapsible::after {
     }
     #allpress_bg .container {
       grid-template-rows: auto 250px auto;
+    }
+
+    #prof_bg #slideshow {
+      height: 175px;
     }
 }
 
@@ -471,5 +474,9 @@ button.collapsible::after {
 
     .disclaimer {
       margin-top: 0px;
+    }
+
+    #prof_bg #slideshow {
+      height: 175px;
     }
 }
