@@ -234,6 +234,10 @@ img {
   height: inherit;
 }
 
+.item3 iframe {
+  height: 625px;
+}
+
 .footer ul {
   list-style: none;
   margin-left: 0px;
