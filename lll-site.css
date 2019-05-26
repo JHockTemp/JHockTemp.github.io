@@ -320,13 +320,17 @@ img {
     margin-right: 10px;
 }
 
+#press_bg .link-card-link p:nth-child(2) {
+  color: var(--blue);
+}
+
 .link-red {
     color: red;
 }
 /* COLLAPSIBLE for ALL MEDIA & PRESS */
 button.collapsible::after {
   content: '\002B';
-  color: var(--red);
+  color: var(--blue);
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -334,7 +338,7 @@ button.collapsible::after {
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
   background-color: #eee;
-  color: #444;
+  color: var(--black);
   cursor: pointer;
   padding: 18px;
   width: 100%;
