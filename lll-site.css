@@ -66,6 +66,7 @@ a, a:-webkit-any-link {
 
 .mobile_image {
   height: 300px;
+  width: auto;
   border-radius: 50%;
   place-self: center;
   border-bottom: 2px solid var(--gold);
