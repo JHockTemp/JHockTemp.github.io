@@ -408,6 +408,11 @@ button.collapsible::after {
     height: 100%;
     width: auto;
   }
+  
+  .item3 iframe {
+      height: 315px;
+      width: 308px;
+    }
 }
 
 /* MEDIA QUERY: Galaxy S8 screens */
