@@ -233,6 +233,7 @@ img {
 
 .item3 iframe {
   height: 315px;
+  width: 500px;
 }
 
 .footer ul {
@@ -437,6 +438,11 @@ button.collapsible::after {
     #prof_bg #slideshow {
       height: 175px;
     }
+  
+    .item3 iframe {
+      height: 315px;
+      width: 308px;
+    }
 }
 
 @media (max-width: 360px) {
@@ -483,5 +489,10 @@ button.collapsible::after {
 
     #prof_bg #slideshow {
       height: 175px;
+    }
+  
+    .item3 iframe {
+      height: 315px;
+      width: 308px;
     }
 }
