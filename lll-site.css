@@ -500,4 +500,8 @@ button.collapsible::after {
       height: 315px;
       width: 308px;
     }
+  
+  #llc_bg .item4 {
+    width: 250px;
+  }
 }
