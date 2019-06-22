@@ -440,14 +440,28 @@ button.collapsible::after {
       grid-template-rows: auto 250px auto;
     }
 
+    #prof_bg .item3 {
+      height: 1850px;
+    }
+
+    #prof_bg .item3 {
+      height: 1750px;
+    }
+
     #prof_bg #slideshow {
       height: 175px;
     }
-  
+
+    #llc_bg #slideshow {
+      height: 280px;
+    }
+
     .item3 iframe {
       height: 315px;
       width: 308px;
     }
+
+
 }
 
 @media (max-width: 360px) {
