@@ -398,9 +398,6 @@ button.collapsible::after {
     margin: 0px;
     height: 250px;
   }
-  #prof_bg #slideshow {
-    height: 400px;
-  }
 
   .item4 {
     display: grid;
