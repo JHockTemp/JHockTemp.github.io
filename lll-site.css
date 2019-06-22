@@ -506,8 +506,19 @@ button.collapsible::after {
       margin-top: 0px;
     }
 
+    #prof_bg .item3 {
+      height: 1800px;
+    }
+    #llc_bg .item3 {
+      height: 1687px;
+    }
+
     #prof_bg #slideshow {
       height: 175px;
+    }
+
+    #llc_bg #slideshow {
+      height: 240px;
     }
   
     .item3 iframe {
