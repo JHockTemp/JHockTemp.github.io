@@ -362,7 +362,7 @@ button.collapsible::after {
 }
 
 /* MEDIA QUERIES: iPhone X and up */
-@media (max-width: 768px) {
+@media (min-width: 414px) and (max-width: 768px) {
   .container {
     grid-template-rows: auto 200px auto;
     grid-template-areas:
