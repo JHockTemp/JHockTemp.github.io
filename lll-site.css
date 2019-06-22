@@ -504,10 +504,10 @@ button.collapsible::after {
     }
 
     #prof_bg .item3 {
-      height: 1800px;
+      height: 1850px;
     }
     #llc_bg .item3 {
-      height: 1687px;
+      height: 1750px;
     }
 
     #prof_bg #slideshow {
@@ -523,7 +523,27 @@ button.collapsible::after {
       width: 308px;
     }
   
-  #llc_bg .item4 {
-    width: 250px;
-  }
+    #llc_bg .item4 {
+      width: 250px;
+    }
+
+    #home_bg body {
+      background-image: url("");
+    }
+    #prof_bg body {
+      background-image: url("");
+    }
+    #llc_bg body {
+      background-image: url("");
+    }
+    #press_bg body {
+      background-image: url("");
+    }
+
+    .item4 {
+      display: grid;
+      grid-area: image;
+      height: 100%;
+      width: auto;
+    }
 }
