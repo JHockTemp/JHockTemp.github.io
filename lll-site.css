@@ -505,10 +505,10 @@ button.collapsible::after {
     }
 
     #prof_bg .item3 {
-      height: 1850px;
+      height: auto;
     }
     #llc_bg .item3 {
-      height: 1750px;
+      height: auto;
     }
 
     #prof_bg #slideshow {
