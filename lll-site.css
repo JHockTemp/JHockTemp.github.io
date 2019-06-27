@@ -509,6 +509,10 @@ button.collapsible::after {
       margin-top:100px;
     }
 
+    #allpress_bg .item4 {
+      width: 275px;
+  }
+
     .disclaimer {
       margin-top: 0px;
     }
