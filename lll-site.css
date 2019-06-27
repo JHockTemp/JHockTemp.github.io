@@ -363,8 +363,13 @@ button.collapsible::after {
 }
 
 /* RESOURCES PAGE */
-details ul li iframe {
-  width: inherit;
+.item3 details ul li iframe {
+  width: 100%;
+  display:block;
+}
+
+.item details ul {
+  padding: 0px;
 }
 /* MEDIA QUERIES: iPhone X and up */
 @media (min-width: 414px) and (max-width: 768px) {
