@@ -362,6 +362,10 @@ button.collapsible::after {
   background-color: #f1f1f1;
 }
 
+/* RESOURCES PAGE */
+details ul li iframe {
+  width: inherit;
+}
 /* MEDIA QUERIES: iPhone X and up */
 @media (min-width: 414px) and (max-width: 768px) {
   .container {
