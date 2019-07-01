@@ -56,7 +56,12 @@
 }
 
 #allpress_bg body {
+  background-image: url("Images/lll_bg_cup.png");
+  background-attachment: fixed;
+  background-position: 116% 137%;
+  background-size: 50%;
   margin: 3% 5%;
+  background-repeat: no-repeat;
 }
 
 a, a:-webkit-any-link {
