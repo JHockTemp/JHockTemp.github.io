@@ -459,6 +459,9 @@ button.collapsible::after {
   #press_bg body {
       background-image: url("");
     }
+  #allpress_bg body {
+      background-image: url("");
+    }
 
   h1 {
     font-size: 4em;
