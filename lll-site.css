@@ -266,6 +266,28 @@ img {
   color: var(--blue2);
 }
 
+/* FONT AWESOME ICONS */
+.fas, .fab {
+  font-size: 3em;
+  text-align: center;
+  margin-right: 10px;
+  color: #aaa;
+}
+
+.fas:hover, .fab:hover {
+  color: var(--blue);
+}
+
+.footer .footer_icon_text {
+  max-width: 70%;
+  font-size: 1.2em;
+  color: var(--black);
+}
+
+.footer_desc {
+  margin-top: 50px;
+}
+
 /* SLIDESHOW STYLING */
 #slideshow {
   margin: 50px auto;
@@ -377,59 +399,6 @@ button.collapsible::after {
   padding: 0px;
 }
 
-/* MailChimp Form */
-#mc_embed_signup {
-  width: 100%;
-  padding: 10px 0px 10px 0px;
-  border-top: 3px solid #777;
-  border-bottom: 3px solid #777;
-  margin-bottom: 30px;
-}
-
-#mc_embed_signup label {
-  display: block;
-  padding-bottom: 10px;
-  
-}
-#mc_embed_signup input.email {
-  font-family: "Open Sans","Helvetica Neue",Arial,Helvetica,Verdana,sans-serif;
-  font-size: 15px;
-  border: 1px solid #ABB0B2;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  color: #343434;
-  background-color: #fff;
-  box-sizing: border-box;
-  height: 32px;
-  padding: 0px 0.4em;
-  display: inline-block;
-  margin-bottom: 10px;
-  width: 100%;
-  vertical-align: top;
-}
-
-#mc_embed_signup .button {
-  width: 50%;
-  font-size: 13px;
-  color: #fff;
-  background-color: var(--blue);
-  border: none;
-  border-radius: 3px;
-  letter-spacing: .03em;
-  box-sizing: border-box;
-  height: 32px;
-  line-height: 32px;
-  padding: 0 18px;
-  display: inline-block;
-  transition: all 0.23s ease-in-out 0s;
-}
-
-#mc_embed_signup .button:hover {
-  background-color: var(--gold);
-  cursor: pointer;
-}
-/* END Mailchimp Form */
 
 /* MEDIA QUERIES: iPhone X and up */
 @media (min-width: 414px) and (max-width: 768px) {
