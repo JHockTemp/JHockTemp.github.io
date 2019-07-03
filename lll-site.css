@@ -452,6 +452,19 @@ button.collapsible::after {
       height: 315px;
       width: 308px;
     }
+
+  .fas, .fab {
+      font-size: 3em;
+      text-align: center;
+      margin-right: 10px;
+      color: var(--blue);
+    }
+    
+  .footer .footer_icon_text {
+      max-width: 100%;
+      font-size: 0.9em;
+      color: var(--black);
+    }
 }
 
 /* MEDIA QUERY: Galaxy S8 screens */
@@ -500,6 +513,18 @@ button.collapsible::after {
       width: 308px;
     }
 
+    .fas, .fab {
+      font-size: 2em;
+      text-align: center;
+      margin-right: 10px;
+      color: var(--blue);
+    }
+    
+    .footer .footer_icon_text {
+      max-width: auto;
+      font-size: 0.9em;
+      color: var(--black);
+    }
 
 }
 
@@ -591,5 +616,18 @@ button.collapsible::after {
       grid-area: image;
       height: 50%;
       width: auto;
+    }
+
+    .fas, .fab {
+      font-size: 2em;
+      text-align: center;
+      margin-right: 10px;
+      color: var(--blue);
+    }
+    
+    .footer .footer_icon_text {
+      max-width: 100%;
+      font-size: 0.9em;
+      color: var(--black);
     }
 }
