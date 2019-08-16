@@ -64,6 +64,15 @@
   background-repeat: no-repeat;
 }
 
+#allpress_bg #resources_bg {
+  background-image: url("Images/teacher1.png");
+  background-attachment: fixed;
+  background-position: 105% 113%;
+  background-size: 50%;
+  margin: 3% 5%;
+  background-repeat: no-repeat;
+}
+
 a, a:-webkit-any-link {
   text-decoration: none;
   color: var(--blue);
@@ -432,6 +441,10 @@ button.collapsible::after {
       background-image: url("");
     }
 
+  #allpress_bg #resources_bg {
+    background-image: url("");
+  }
+
   h1 {
     font-size: 4em;
   }
@@ -608,6 +621,9 @@ button.collapsible::after {
       background-image: url("");
     }
     #press_bg body {
+      background-image: url("");
+    }
+    #allpress_bg #resources_bg {
       background-image: url("");
     }
 
