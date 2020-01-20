@@ -191,7 +191,7 @@ span {
 /* STYLING for LLC PAGE */
 
 .llc_image {
-  height: 300px;
+  height: ;
   width: 500px;
   border-radius: 50%;
   margin-left: -109px;
@@ -579,6 +579,36 @@ button.collapsible::after {
       color: var(--black);
     }
 
+    #home_bg body {
+      background-image: url("");
+    }
+    #prof_bg body {
+      background-image: url("");
+    }
+    #llc_bg body {
+      background-image: url("");
+    }
+    #press_bg body {
+      background-image: url("");
+    }
+    #allpress_bg body {
+      background-image: url("");
+    }
+    #allpress_bg #resources_bg {
+    background-image: url("");
+  }
+
+    .llc_image {
+      height: ;
+      width: 444px;
+      border-radius: 50%;
+      margin-left: -98px;
+  }
+    #llc_bg .item3 {
+      margin-top: 70px;
+  }
+
+
 }
 
 @media (max-width: 360px) {
@@ -685,5 +715,15 @@ button.collapsible::after {
       max-width: 100%;
       font-size: 0.9em;
       color: var(--black);
+    }
+
+    .llc_image {
+      height: ;
+      width: 425px;
+      border-radius: 50%;
+      margin-left: -94px;
+  }
+    #llc_bg .item3 {
+      margin-top: 70px;
     }
 }
