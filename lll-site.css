@@ -191,7 +191,6 @@ span {
 /* STYLING for LLC PAGE */
 
 .llc_image {
-  height: ;
   width: 500px;
   border-radius: 50%;
   margin-left: -109px;
@@ -599,7 +598,6 @@ button.collapsible::after {
   }
 
     .llc_image {
-      height: ;
       width: 444px;
       border-radius: 50%;
       margin-left: -98px;
@@ -718,7 +716,6 @@ button.collapsible::after {
     }
 
     .llc_image {
-      height: ;
       width: 425px;
       border-radius: 50%;
       margin-left: -94px;
