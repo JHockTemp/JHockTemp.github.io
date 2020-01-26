@@ -85,6 +85,7 @@ a, a:-webkit-any-link {
   place-self: center;
   border-bottom: 2px solid var(--gold);
 }
+
 .home_mobile_image {
   height: auto;
   width: 100%;
@@ -173,6 +174,11 @@ span {
 
 .item1 {
   grid-area: name;
+  max-width: 500px;
+}
+
+#llc_bg .item1 h1 {
+  display: none;
 }
 
 .item3 {
@@ -181,6 +187,35 @@ span {
   font-size: 1.2em;
   font-family: serif;
 }
+
+/* STYLING for LLC PAGE */
+
+.llc_image {
+  width: 500px;
+  border-radius: 50%;
+  margin-left: -109px;
+}
+
+#llc_bg .item3 {
+  grid-area: bio;
+  max-width: 500px;
+  font-size: 1.2em;
+  font-family: serif;
+  margin-top: 150px;
+}
+
+#llc_bg h2 {
+  margin-top: 0px;
+  color: var(--gold);
+  /*box-shadow: inset 0 -10px 0 0 var(--blue);*/
+  width: max-content;
+  padding-bottom: 30px;
+}
+
+#llc_bg .mobile_image {
+  display:none;
+}
+/* END STYLING for LLC PAGE */
 
 .bookstore {
   margin: 35px 0px 35px 0px;
@@ -478,6 +513,10 @@ button.collapsible::after {
       font-size: 0.9em;
       color: var(--black);
     }
+
+    #llc_bg .item3 {
+      margin-top: 100px;
+    }
 }
 
 /* MEDIA QUERY: Galaxy S8 screens */
@@ -538,6 +577,35 @@ button.collapsible::after {
       font-size: 0.9em;
       color: var(--black);
     }
+
+    #home_bg body {
+      background-image: url("");
+    }
+    #prof_bg body {
+      background-image: url("");
+    }
+    #llc_bg body {
+      background-image: url("");
+    }
+    #press_bg body {
+      background-image: url("");
+    }
+    #allpress_bg body {
+      background-image: url("");
+    }
+    #allpress_bg #resources_bg {
+    background-image: url("");
+  }
+
+    .llc_image {
+      width: 444px;
+      border-radius: 50%;
+      margin-left: -98px;
+  }
+    #llc_bg .item3 {
+      margin-top: 70px;
+  }
+
 
 }
 
@@ -645,5 +713,14 @@ button.collapsible::after {
       max-width: 100%;
       font-size: 0.9em;
       color: var(--black);
+    }
+
+    .llc_image {
+      width: 425px;
+      border-radius: 50%;
+      margin-left: -94px;
+  }
+    #llc_bg .item3 {
+      margin-top: 70px;
     }
 }
