@@ -37,6 +37,15 @@
   background-repeat: no-repeat;
 }
 
+#ease body {
+  background-image: url(" ");
+  background-attachment: fixed;
+  background-position: 105% 100%;
+  background-size: 40%;
+  margin: 0px;
+  background-repeat: no-repeat;
+}
+
 #llc_bg body {
   background-image: url("Leroy_OSU.png");
   background-attachment: fixed;
@@ -183,7 +192,7 @@ span {
 
 .item3 {
   grid-area: bio;
-  max-width: 500px;
+  max-width: 100%;
   font-size: 1.2em;
   font-family: serif;
   margin-top: 50px;
@@ -217,6 +226,220 @@ span {
   display:none;
 }
 /* END STYLING for LLC PAGE */
+
+/* STYLING for EASE PAGE */
+#ease .container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 200px 500px 1fr auto 50px;
+  width: 100%;
+  grid-gap: 0px;
+  grid-template-areas:
+    "name     name  "
+    "header   header"
+    "bio      bio"
+    "footer   footer"
+    ".        .     "
+}
+
+span {
+  padding: 50px;
+  position: absolute;
+  left: calc(100% - 200px);
+}
+
+.header {
+  grid-area: header;
+  width: 100%;
+  background-image: linear-gradient(180deg,rgba(150,105,97,0.67) 0%,rgba(0,2,43,0.46) 100%), url("Images/track.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 10%;
+}
+
+.header-text, .header-text h1 {
+  color: var(--white);
+  text-align: center;
+}
+
+.header-text {
+  
+}
+
+.ease_image {
+  width: 150px; 
+  margin: 50px 0px 0px 50px;
+}
+
+#ease .item3 {
+  grid-area: bio;
+  max-width: 100%;
+  font-size: 1.2em;
+  font-family: sans-serif;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.link-card{
+  box-shadow: 0 4px 8px 0 var(--box), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 30px 0 30px 0;
+  overflow: hidden;
+}
+
+.link-card-ease { 
+  box-shadow: 0 4px 8px 0 var(--box), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin: 30px 0 30px 0;
+  overflow: hidden;
+  width: ;
+}
+
+.link-card-ease img {
+  height: 100%;
+  width: 25%;
+  border-radius: 0%;
+  float: left;
+  margin-right: 50px;
+  min-height: 260px;
+}
+
+.link-card-ease a {
+  text-decoration: none;
+}
+
+.link-card-ease p {
+    font-size: 30px;
+    color: var(--blue);
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.link-card-ease ul {
+ list-style-type: none;
+ font-size: 14px;
+}
+
+.link-card-ease ul li {
+  margin-bottom: 10px;
+  max-width: 90%;
+ }
+
+button {
+  width: ;
+  padding: 12px;
+  color: white;
+  background-color: var(--blue);
+  border-radius: 7px;
+  text-align: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.text h1 {
+  font-size: 4em;
+  color: var(--white);
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+  /* TEST for MOBILE CARDS */
+.card-ease-mobile {
+  position: relative;
+  width: 50%;
+  float: left;
+  padding: 5px;
+}
+
+.ease-image-mobile {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.card-ease-mobile-test {
+  box-shadow: 0 4px 8px 0 var(--box), 0 6px 20px 0 rgba(0,0,0,0.19);;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 25px;
+  float: left;
+  display: grid;
+}
+
+.card-ease-mobile-top {
+  box-shadow: 0 4px 8px 0 var(--box), 0 6px 20px 0 rgba(0,0,0,0.19);;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 25px;
+  float: left;
+  display: none;
+}
+
+.title {
+  color: sans-serif;
+  font-size: 18px;
+  color: var(--blue);
+}
+
+.card-ease-mobile-test .fas, .card-ease-mobile-top .fas {
+  text-decoration: none;
+  font-size: 22px;
+  color: var(--red);
+  margin: 20px;
+}
+
+.card-ease-mobile-test ul, .card-ease-mobile-top ul {
+  text-decoration: none;
+  font-size: 12px;
+  list-style-type: none;
+}
+
+.card-ease-mobile-test ul li, .card-ease-mobile-top ul li, .research-list li {
+  margin-bottom: 10px;
+  max-width: 90%;
+ }
+
+ .research {
+   padding: 0px 20px 0px 20px;
+ }
+
+ .research div {
+  margin-bottom: 50px;
+ }
+
+ .research-title {
+   color: var(--red);
+ }
+
+ .research-list {
+  font-size: 0.8em;
+ }
+
+ #ease .footer {
+   margin-left: 100px;
+   margin-right: 100px;
+   border-top: dotted;
+ }
+/* TEST for MOBILE CARDS */
+
+@media screen and (max-width: 500px) {
+  .card-ease-mobile {
+    width: 100%;
+  }
+
+  #ease .item3 {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+/* END STYLING for EASE PAGE */
 
 .bookstore {
   margin: 35px 0px 35px 0px;
@@ -380,7 +603,7 @@ img {
     float: left;
 }
 
-.link-card-link{
+.link-card-link {
   	padding: 1px 75px 15px 15px;
     font-size: 15px;
     width: 100%;
@@ -388,6 +611,7 @@ img {
 .link-card-link a {
   text-decoration: none;
 }
+
 .link-card-link p {
   	color: #000;
     padding-right: 10px;
@@ -446,6 +670,7 @@ button.collapsible::after {
 
 
 /* MEDIA QUERIES: iPhone X and up */
+
 @media (min-width: 414px) and (max-width: 768px) {
   .container {
     grid-template-rows: auto 200px auto;
@@ -467,6 +692,9 @@ button.collapsible::after {
   #prof_bg body {
       background-image: url("");
     }
+  #ease_bg {
+    background-image: url("";)
+    }  
   #llc_bg body {
       background-image: url("");
     }
@@ -518,6 +746,63 @@ button.collapsible::after {
     #llc_bg .item3 {
       margin-top: 100px;
     }
+
+    .link-card-ease {
+      display: none;
+    }
+
+    .header {
+      height: 400px;
+    }
+
+    .card-ease-mobile-top {
+      box-shadow: 0 4px 8px 0 var(--box), 0 6px 20px 0 rgba(0,0,0,0.19);;
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 25px;
+      float: left;
+      display: grid;
+    }
+
+    .card-wrapper {
+      grid-template-columns: auto;
+      grid-gap: 20px;
+    }
+
+    #ease .item3 {
+      margin-top: 0px;
+    }
+
+    #ease .footer {
+      margin: 40px;
+    }
+  
+    #ease .footer_icon_text {
+      max-width: 100%;
+    }
+
+    #ease span {
+      left: calc(100% - 144px);
+    }
+  
+    .ease_image {
+      width: 100px; 
+      margin: 50px 0px 10px 20px;
+    }
+
+    #ease .item3 h2 {
+      padding-left: 20px;
+      width: 90%;
+    }
+}
+
+@media (min-width:768px) and (max-width: 833px)
+{
+  .card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+  }
 }
 
 /* MEDIA QUERY: Galaxy S8 screens */
@@ -538,22 +823,26 @@ button.collapsible::after {
     #llc_bg h1, #allpress_bg h1 {
       font-size: 3em;
     }
-    #prof_bg .container, #press_bg .container {
+    #prof_bg .container, #press_bg .container, #ease .container {
       grid-template-rows: auto 200px auto;
     }
     #allpress_bg .container {
       grid-template-rows: auto 250px auto;
     }
 
-    #prof_bg .item3 {
+    #prof_bg .item3, #ease .item3 {
       height: 1850px;
     }
 
-    #prof_bg .item3 {
+    #prof_bg .item3, #ease .item3 {
       height: 1750px;
     }
 
-    #prof_bg #slideshow {
+   #ease .item3 {
+      height: auto;
+    }
+
+    #prof_bg #slideshow, #ease #slideshow {
       height: 175px;
     }
 
@@ -582,7 +871,7 @@ button.collapsible::after {
     #home_bg body {
       background-image: url("");
     }
-    #prof_bg body {
+    #prof_bg body, #ease body {
       background-image: url("");
     }
     #llc_bg body {
@@ -607,7 +896,62 @@ button.collapsible::after {
       margin-top: 70px;
   }
 
+  .link-card-ease {
+    display: none;
+  }
+  /* EASE PAGE */
+  #ease .container {
+    margin-left: 0px;
+  }
 
+  #ease span {
+    left: calc(100% - 144px);
+  }
+
+  .ease_image {
+    width: 100px; 
+    margin: 50px 0px 10px 20px;
+  }
+
+  #ease .item3 {
+    margin: 250px 0px 0px 0px;
+  }
+
+  #ease .item3 h2 {
+    padding-left: 20px;
+    width: 90%;
+  }
+
+  .header {
+    height: 400px;
+  }
+
+  .header-text h1 {
+    font-size: 4em;
+  }
+
+  .card-ease-mobile-top {
+    box-shadow: 0 4px 8px 0 var(--box), 0 6px 20px 0 rgba(0,0,0,0.19);;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 25px;
+    float: left;
+    display: grid;
+  }
+
+  .card-wrapper {
+    grid-template-columns: auto;
+    grid-gap: 20px;
+  }
+
+  #ease .footer {
+    margin: 40px;
+  }
+
+  #ease .footer_icon_text {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 360px) {
@@ -627,7 +971,7 @@ button.collapsible::after {
     #allpub_bg .container {
       grid-template-rows: auto 200px auto;
     }
-    #prof_bg .container, #press_bg .container {
+    #prof_bg .container, #press_bg .container, #ease .container {
       grid-template-rows: auto 150px auto;
     }
     #allpress_bg .container {
@@ -656,14 +1000,14 @@ button.collapsible::after {
       margin-top: 0px;
     }
 
-    #prof_bg .item3 {
+    #prof_bg .item3, #ease_bg .item3  {
       height: auto;
     }
     #llc_bg .item3 {
       height: auto;
     }
 
-    #prof_bg #slideshow {
+    #prof_bg #slideshow, #ease #slideshow {
       height: 175px;
     }
 
@@ -683,7 +1027,7 @@ button.collapsible::after {
     #home_bg body {
       background-image: url("");
     }
-    #prof_bg body {
+    #prof_bg body, #ease body {
       background-image: url("");
     }
     #llc_bg body {
@@ -723,5 +1067,62 @@ button.collapsible::after {
   }
     #llc_bg .item3 {
       margin-top: 70px;
+    }
+
+    .link-card-ease {
+      display: none;
+    }
+    
+    #ease .container {
+      margin-left: 0px;
+    }
+
+    .card-ease-mobile-top {
+      box-shadow: 0 4px 8px 0 var(--box), 0 6px 20px 0 rgba(0,0,0,0.19);;
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 25px;
+      float: left;
+      display: grid;
+    }
+
+    .header {
+      height: 350px;
+    }
+
+    .header-text h1 {
+      font-size: 3em;
+    }
+
+    #ease .item3 {
+      margin: 200px 0px 0px 0px;
+    }
+
+    .card-wrapper {
+      grid-template-columns: auto;
+      grid-gap: 20px;
+    }
+
+    #ease span {
+      left: calc(100% - 144px);
+    }
+    
+    .ease_image {
+      width: 100px; 
+      margin: 50px 0px 10px 20px;
+    }
+
+    #ease .item3 h2 {
+      padding-left: 20px;
+      width: 90%;
+    }
+  
+    #ease .footer {
+      margin: 20px;
+    }
+  
+    #ease .footer_icon_text {
+      max-width: 100%;
     }
 }

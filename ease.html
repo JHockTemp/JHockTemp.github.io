@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en" id="ease">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134145667-3"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-134145667-3');
+    </script>
+    <script src="https://kit.fontawesome.com/d7de94e2a3.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lll-site.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <title>Engineering and Sports Engagement &#124; Research Team</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Verdana, sans-serif;
+        }
+
+        h2 {
+            margin-top: 30px;
+        }
+
+        .mySlides {
+            display: none;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+        }
+
+        /* Caption text */
+        .text {
+            color: #f2f2f2;
+            padding: 15% 0px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .text h1 {
+            font-size: 3em;
+        }
+
+        .text p {
+            font-size: 25px;
+        }
+
+        /* Number text (1/3 etc) */
+        .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+        }
+
+        /* The dots/bullets/indicators */
+        .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+        }
+
+        .active {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        @keyframes fade {
+            from {
+                opacity: .4
+            }
+
+            to {
+                opacity: 1
+            }
+        }
+
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+            .text {
+                font-size: 11px
+            }
+        }
+
+        @media only screen and (max-width: 414px) {
+            .mySlides img {
+                height: 275px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="Page_Nav" class="overlay">
+
+        <!-- Button to close overlay -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay Content -->
+        <div class="overlay_content">
+            <a href="/index">Home</a>
+            <a href="/weneedmore">We Need More, LLC</a>
+            <a href="/professor">Professor Long</a>
+            <a href="/ease">EASE</a>
+            <a href="/press">Media &amp; Press</a>
+            <a href="/resources">Resources</a>
+        </div>
+    </div>
+
+    <span style="font-size: 50px; cursor: pointer; color: var(--blue)" onclick="openNav()">&#9776;</span>
+    <!-- END PAGE NAV OVERLAY -->
+
+    <div class="container">
+        <div class="item item1">
+            <a href="/index">
+                <img class="ease_image" src="Images/ease.png">
+            </a>
+        </div>
+
+        <div class="header">
+            <div class="header-text">
+                <h1>EASE Research Team</h1>
+                <p>Working to encourage equity, inclusion & career readiness via sports & STEM.</p>
+            </div>
+        </div>
+
+        <div class="item item3">
+
+            <!-- PROFILE CARDS -->
+            <h2>Director and Founder</h2>
+            <div class="link-card-ease">
+                <img src="Images/EASE/leroy-ease.jpg" alt="Leroy Long">
+
+                <p><strong>Leroy Long III, PhD</strong></p>
+
+                <ul>
+                    <li>Assistant Professor, Engineering Fundamentals</li>
+                    <li>Grant Recipient, 2019 NCAA Innovations in Research and Practice Grant Program</li>
+                    <li>Interesting fact: I'm artistic and creative (drawing, writing poetry, etc.)</li>
+                </ul>
+
+                <a href="http://faculty.erau.edu/Leroy.Long"><button type="button">Faculty Profile</button></a>
+            </div>
+
+            <div class="card-wrapper">
+                <div class="card-ease-mobile-top">
+                    <img src="Images/EASE/leroy-mobile.png" class="ease-image-mobile-test" alt="Leroy Long">
+
+                    <p class="title"><strong>Leroy Long III, PhD</strong></p>
+
+                    <ul>
+                        <li>Assistant Professor, Engineering Fundamentals</li>
+                        <li>Grant Recipient, 2019 NCAA Innovations in Research and Practice Grant Program</li>
+                        <li>Interesting fact: I'm artistic and creative (drawing, writing poetry, etc.)</li>
+                    </ul>
+
+                    <a href="http://faculty.erau.edu/Leroy.Long"><i class="fas fa-link fa-xs"></i></a>
+                </div>
+            </div>
+
+            <br>
+            <h2>Student Researchers</h2>
+
+            <div class="card-wrapper">
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/melanie-mobile.png" class="ease-image-mobile-test" alt="Melanie Canfield">
+
+                    <p class="title"><strong>Melanie Canfield</strong></p>
+
+                    <ul>
+                        <li>Junior, Mechanical Engineering</li>
+                        <li>Middle Blocker, Volleyball </li>
+                        <li>Dream job: Leading a team in designing the most sustainable form of renewable energy</li>
+                    </ul>
+
+                    <a href="https://erauathletics.com/sports/womens-volleyball/roster/melanie-canfield/5115"><i
+                            class="fas fa-link fa-xs"></i></a>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/mahteme-mobile.png" class="ease-image-mobile-test" alt="Meteme Desta">
+
+                    <p class="title"><strong>Mahteme Desta</strong></p>
+
+                    <ul>
+                        <li>Junior, Aerospace Engineering</li>
+                        <li>Engineering Ambassador, Boeing</li>
+                    </ul>
+
+                    <a href="https://www.linkedin.com/in/mahteme-desta-489b1a172"><i class="fas fa-link fa-xs"></i></a>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/sydneye-mobile.png" class="ease-image-mobile-test" alt="Sydney Ellise">
+
+                    <p class="title"><strong>Sydney Ellis</strong></p>
+
+                    <ul>
+                        <li>Sophomore, Human Factors</li>
+                        <li>Outside Hitter, Volleyball </li>
+                        <li>Dream job: Human factors professor who is able to create new human factors programs at other
+                            universities </li>
+                    </ul>
+
+                    <a href="https://erauathletics.com/sports/womens-volleyball/roster/sydney-ellis/5116"><i
+                            class="fas fa-link fa-xs"></i></a>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/derricka-mobile.png" class="ease-image-mobile-test" alt="Derricka Irons">
+
+                    <p class="title"><strong>Derricka Irons</strong></p>
+
+                    <ul style="padding-bottom: 10px">
+                        <li>Junior, Human Factors</li>
+                        <li>Executive Board, Mayor's Youth Council </li>
+                        <li>Dream job: Human factors engineer who designs planes, cars, medical equipment </li>
+                    </ul>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/mckenzie-mobile.png" class="ease-image-mobile-test" alt="McKenzie Jackson">
+
+                    <p class="title"><strong>McKenzie Jackson</strong></p>
+
+                    <ul>
+                        <li>Junior, Civil Engineering</li>
+                        <li>Midfield, Lacrosse</li>
+                        <li>Dream job: Civil engineering firm involving construction
+                        </li>
+                    </ul>
+
+                    <a href="https://erauathletics.com/sports/womens-lacrosse/roster/mckenzie-jackson/5250"><i
+                            class="fas fa-link fa-xs"></i></a>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/sydney-mobile.png" class="ease-image-mobile-test" alt="Sydney Jones">
+
+                    <p class="title"><strong>Sydney Jones</strong></p>
+
+                    <ul>
+                        <li>Sophomore, Aerospace Engineering</li>
+                        <li>Forward, Basketball /li>
+                        <li>Dream job: Project manager over commercial airplanes at a company like Boeing
+                        </li>
+                    </ul>
+
+                    <a href="https://erauathletics.com/sports/womens-basketball/roster/sydney-jones/5012"><i
+                            class="fas fa-link fa-xs"></i></a>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/kobe-mobile.png" class="ease-image-mobile-test" alt="Kobe Reese">
+
+                    <p class="title"><strong>Kobe Reese</strong></p>
+
+                    <ul>
+                        <li>Senior, Human Factors </li>
+                        <li>Extra-curriculars: User Experience Design</li>
+                        <li>Dream job: User Experience Research and Design
+                        </li>
+                    </ul>
+
+                    <a href="http://theavion.com/the-good-bad-of-website-design/"><i class="fas fa-link fa-xs"></i></a>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/olivia-mobile.png" class="ease-image-mobile-test" alt="Olivia Roa">
+
+                    <p class="title"><strong>Olivia Roa</strong></p>
+
+                    <ul>
+                        <li>Senior, Human Factors </li>
+                        <li>Libero, Volleyball </li>
+                        <li>Dream job: User experience designer for a company like Google
+                        </li>
+                    </ul>
+
+                    <a href="https://erauathletics.com/sports/womens-volleyball/roster/olivia-roa/5120"><i
+                            class="fas fa-link fa-xs"></i></a>
+                </div>
+            </div>
+            <br>
+            <h2>Student Alumni</h2>
+
+            <div class="card-wrapper">
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/mckenzie-mobile.png" class="ease-image-mobile-test" alt="McKenna James">
+
+                    <p class="title"><strong>McKenna James</strong></p>
+
+                    <ul>
+                        <li>B.S. Aerospace Engineering, 2019 </li>
+                        <li>Systems Engineer (program: Fleet Ballistic Missile), Lockheed Martin </li>
+                        <li>Master's Student (program: Systems Engineering), University of Arizona
+                        </li>
+                    </ul>
+
+                    <a href="https://erauathletics.com/sports/womens-volleyball/roster/mckenna-james/4574"><i
+                            class="fas fa-link fa-xs"></i></a>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/claudia-mobile.png" class="ease-image-mobile-test" alt="Claudia Morello">
+
+                    <p class="title"><strong>Claudia Morello</strong></p>
+
+                    <ul>
+                        <li>B.S. Aerospace Engineering, 2019 </li>
+                        <li>Systems Engineer (program: Fleet Ballistic Missile), Lockheed Martin </li>
+                        <li>Master's Student (program: Systems Engineering), University of Arizona
+                        </li>
+                    </ul>
+
+                    <a href="https://erauathletics.com/sports/womens-volleyball/roster/mckenna-james/4574"><i
+                            class="fas fa-link fa-xs"></i></a>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/christian-mobile.png" class="ease-image-mobile-test" alt="Christian Pierre">
+
+                    <p class="title"><strong>Christian Pierre</strong></p>
+
+                    <ul style="padding-bottom: 10px">
+                        <li>B.S. Aerospace Engineering, 2019 </li>
+                        <li>Flight Test Engineer, Boeing</li>
+                        <li>Interesting fact: Fluent in three languages
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/will-mobile.png" class="ease-image-mobile-test" alt="William Wanyagah">
+
+                    <p class="title"><strong>William Wanyagah</strong></p>
+
+                    <ul>
+                        <li>B.S. Aerospace Engineering, 2019 </li>
+                        <li>Development Engineer, Cummins</li>
+                    </ul>
+
+                    <a href="https://www.linkedin.com/in/william-wanyagah-76ab9111a"><i
+                            class="fas fa-link fa-xs"></i></a>
+                </div>
+            </div>
+
+            <br>
+
+            <h2>Faculty Research Affiliates</h2>
+
+            <div class="card-wrapper">
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/sharnia-mobile.png" class="ease-image-mobile-test" alt="Dr. Sharnia Artis">
+
+                    <p class="title"><strong>Sharnnia Artis, PhD</strong></p>
+
+                    <ul>
+                        <li>Assistant Dean for Access and Inclusion </li>
+                        <li>Assessment specialist, engineering education </li>
+                        <li>Diversity and inclusion researcher, engineering education</li>
+                    </ul>
+
+                    <a href="https://engineering.uci.edu/users/sharnnia-artis"><i class="fas fa-link fa-xs"></i></a>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/mike-mobile.png" class="ease-image-mobile-test" alt="Dr. Morris Council">
+
+                    <p class="title"><strong>Morris Council III, PhD</strong></p>
+
+                    <ul>
+                        <li>Assistant Professor, College of Education </li>
+                        <li>UWG Faculty Athletic Rep.</li>
+                        <li>Athletic Scholarship Recipient, Former D1 Student-Athlete</li>
+                    </ul>
+
+                    <a href="https://www.westga.edu/academics/education/profile.php?emp_id=91559"><i
+                            class="fas fa-link fa-xs"></i></a>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/kelly-mobile.png" class="ease-image-mobile-test" alt="Dr. Kelly Cross">
+
+                    <p class="title"><strong>Kelly J Cross, PhD</strong></p>
+
+                    <ul>
+                        <li>Assistant Professor, Chemical Engineering</li>
+                        <li>Diversity and inclusion researcher, engineering education</li>
+                        <li>Intersectionality researcher, engineering education </li>
+                    </ul>
+
+                    <a href="https://www.unr.edu/engineering/contact/cross"><i class="fas fa-link fa-xs"></i></a>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/james-mobile.png" class="ease-image-mobile-test" alt="Dr. James Pembridge">
+
+                    <p class="title"><strong>James Pembridge, PhD</strong></p>
+
+                    <ul>
+                        <li>Associate Professor, Engineering Fundamentals</li>
+                        <li>ERAU Faculty Athletic Rep. </li>
+                        <li>Grant Recipient, 2019 NCAA Innovations in Research and Practice Grant Program </li>
+                    </ul>
+
+                    <a href="https://faculty.erau.edu/James.Pembridge"><i class="fas fa-link fa-xs"></i></a>
+                </div>
+
+                <div class="card-ease-mobile-test">
+                    <img src="Images/EASE/michael-mobile.png" class="ease-image-mobile-test"
+                        alt="Dr. Michael Steven Williams">
+
+                    <p class="title"><strong>Michael Steven Williams, PhD</strong></p>
+
+                    <ul>
+                        <li>Assistant Professor, Higher Education </li>
+                        <li>Social Justice Researcher, Higher Education</li>
+                        <li>Student Engagement Researcher, Higher Education </li>
+                    </ul>
+
+                    <a href="https://education.missouri.edu/person/michael-williams/"><i
+                            class="fas fa-link fa-xs"></i></a>
+                </div>
+            </div>
+            <!-- END PROFILE CARDS -->
+
+            <h2>Research</h2>
+            <div class="research">
+                <div>
+                    <p class="research-title">Career Competencies: More than Students, More than Athletes</p>
+
+                    <ul class="research-list">
+                        <li>Poster Authors: Melanie Canfield, Sydney Jones, Christian Pierre, Olivia Roa</li>
+                        <li>2019 Embry-Riddle Daytona Beach Student Research Symposium (SRS)</li>
+                        <li><a
+                                href="http://commons.erau.edu/db-srs/2019/poster/11">http://commons.erau.edu/db-srs/2019/poster/11</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p class="research-title">Career Readiness Challenge (CRC) App - Promo Video</p>
+
+                    <ul class="research-list">
+                        <li>Authors: Melanie Canfield, Sydney Jones, Christian Pierre, Olivia Roa</li>
+                        <li><a href="https://youtu.be/hcyN1fs_SSU">https://youtu.be/hcyN1fs_SSU</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p class="research-title">Life After Sports: Black Males Pursuing Engineering and Related STEM
+                        Fields
+                    </p>
+
+                    <ul class="research-list">
+                        <li>Poster Authors: Leroy L. Long III, Robert A. Bennett III, Morris R. Council III, McKenna
+                            James
+                        </li>
+                        <li>2019 National Conference on Race and Ethnicity (NCORE)</li>
+                        <li><a
+                                href="http://commons.erau.edu/publication/1370">http://commons.erau.edu/publication/1370</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p class="research-title">Using More Frequent and Formative Assessment When Replicating the Wright
+                        State
+                        Model for Engineering
+                        Mathematics Education</p>
+
+                    <ul class="research-list">
+                        <li>Paper Authors: Leroy Long III, Claudia Morello
+                        </li>
+                        <li><a
+                                href="http://commons.erau.edu/publication/1296">http://commons.erau.edu/publication/1296</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <p class="research-title">Infographics</p>
+                    <ul class="research-list">
+                        <li>
+                            <a
+                                href="https://leroylongiii.com/all-publications.html">https://leroylongiii.com/all-publications</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="item item4">
+
+        </div>
+
+        <div class="item footer">
+            <p class="footer_icon_text">Connect with the EASE research team and follow what they're working on.</p>
+            <footer>
+                <div class="footer_icons">
+                    <ul>
+                        <li><a href="mailto:easeresearchteam@gmail.com" target="_blank"><i
+                                    class="fas fa-envelope-square"></i></a></li>
+
+                        <li><a href="https://www.facebook.com/leroy.long.9" target="_blank"><i
+                                    class="fab fa-facebook-square"></i></a></li>
+
+                        <li><a href="https://twitter.com/ERAU_EASE" target="_blank"><i
+                                    class="fab fa-twitter-square"></i></a></li>
+
+                        <li><a href="https://www.instagram.com/ERAU_EASE/" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
+                        </li>
+
+                        <li><a href="https://www.youtube.com/channel/UCd90h1vA81o5ZhGaISFeCOQ" target="_blank"><i
+                                    class="fab fa-youtube-square"></i></a></li>
+                    </ul>
+                </div>
+                <br><br>
+                <div class="footer_desc">
+                    <p>&#169; 2019 WE NEED MORE, LLC. All Rights Reserved.</p>
+                    <p>Crafted by <a href="http://instagram.com/_jhock" target="_blank">&#64;JHOCK</a></p>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="lll-site.js"></script>
+    <script>
+        /* Open */
+        function openNav() {
+            document.getElementById("Page_Nav").style.display = "block";
+        }
+
+        /* Close */
+        function closeNav() {
+            document.getElementById("Page_Nav").style.display = "none";
+        }
+
+        /* SLIDESHOW */
+        var slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace("active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            // dots[slideIndex - 1].className += "active";
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+    </script>
+
+</body>
+
+</html>
