@@ -242,7 +242,7 @@ span {
     ".        .     "
 }
 
-span {
+.hamburger {
   padding: 50px;
   position: absolute;
   left: calc(100% - 200px);
@@ -776,7 +776,7 @@ button.collapsible::after {
       max-width: 100%;
     }
 
-    #ease span {
+    #ease .hamburger {
       left: calc(100% - 144px);
     }
   
