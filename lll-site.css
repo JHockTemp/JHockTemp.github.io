@@ -242,16 +242,15 @@ span {
     ".        .     "
 }
 
-#ease .hamburger {
-  padding: 50px;
-  position: absolute;
-  left: calc(100% - 200px);
-}
-
 .hamburger {
   padding: 50px;
   position: absolute;
   left: calc(100% - 144px);
+}
+#ease .hamburger {
+  padding: 50px;
+  position: absolute;
+  left: calc(100% - 200px);
 }
 
 .header {
