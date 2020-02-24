@@ -192,7 +192,7 @@ span {
 
 .item3 {
   grid-area: bio;
-  max-width: 100%;
+  max-width: 500px;
   font-size: 1.2em;
   font-family: serif;
   margin-top: 50px;
