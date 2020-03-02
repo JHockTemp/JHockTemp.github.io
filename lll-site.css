@@ -201,9 +201,9 @@ span {
 /* STYLING for LLC PAGE */
 
 .llc_image {
-  width: 500px;
-  border-radius: 50%;
-  margin-left: -109px;
+  width: 400px;
+  margin-left: -87px;
+  margin-top: 78px;
 }
 
 #llc_bg .item3 {
