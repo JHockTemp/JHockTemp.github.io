@@ -796,6 +796,7 @@ button.collapsible::after {
     }
 }
 
+/* iPad & Tablets */
 @media (min-width:768px) and (max-width: 833px)
 {
   .card-wrapper {
@@ -886,13 +887,28 @@ button.collapsible::after {
     background-image: url("");
   }
 
-    .llc_image {
-      width: 444px;
-      border-radius: 50%;
-      margin-left: -98px;
+  .llc_image {
+    width: 200px; 
+    margin: 42px 0px 10px -45px;
   }
+
     #llc_bg .item3 {
       margin-top: 70px;
+  }
+
+  .item4 {
+    display: grid;
+    grid-area: image;
+    height: 100%;
+    width: auto;
+  }
+
+  .mobile_image {
+    height: 250px;
+    width: auto;
+    border-radius: 50%;
+    place-self: center;
+    border-bottom: 2px solid var(--gold);
   }
 
   .link-card-ease {
@@ -1060,10 +1076,10 @@ button.collapsible::after {
     }
 
     .llc_image {
-      width: 425px;
-      border-radius: 50%;
-      margin-left: -94px;
-  }
+      width: 200px; 
+      margin: 42px 0px 10px -45px;
+    }
+
     #llc_bg .item3 {
       margin-top: 70px;
     }
