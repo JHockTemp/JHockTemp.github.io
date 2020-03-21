@@ -156,6 +156,9 @@ a, a:-webkit-any-link {
   font-size: 60px;
 }
 
+#dots {
+  float: none;
+}
 span {
   float: right;
 }
@@ -662,6 +665,17 @@ button.collapsible::after {
   padding: 0px;
 }
 
+.weblink-items li {
+  margin: 0 0 5px 0;
+}
+
+.weblink-items li a {
+  text-decoration: none;
+}
+
+#myBtn {
+  color: var(--red);
+}
 
 /* MEDIA QUERIES: iPhone X and up */
 
