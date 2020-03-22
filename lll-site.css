@@ -156,7 +156,7 @@ a, a:-webkit-any-link {
   font-size: 60px;
 }
 
-#dots {
+#dots, #dots1 {
   float: none;
 }
 span {
