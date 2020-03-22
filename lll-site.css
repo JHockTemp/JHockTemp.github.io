@@ -673,7 +673,7 @@ button.collapsible::after {
   text-decoration: none;
 }
 
-#myBtn {
+#myBtn, #myBtn1, #myBtn2, #myBtn3, #myBtn4, #myBtn5 {
   color: var(--red);
 }
 
