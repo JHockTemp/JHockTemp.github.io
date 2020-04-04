@@ -677,6 +677,48 @@ button.collapsible::after {
   color: var(--red);
 }
 
+
+
+.quote {
+  display: inline-block;
+  margin: 0 0 2em 0;
+  overflow: hidden;
+}
+
+blockquote {
+  background-color: #fff;
+  border: solid 2px var(--red);
+  display: inline-block;
+  margin: 0;
+  padding: 1em;
+  position: relative;
+}
+
+blockquote::before {
+  background-color: #fff;
+  bottom: -10%;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: -10%;
+  transform: rotate(-15deg) skew(5deg);
+}
+
+cite {
+  display: block;
+  font-style: italic;
+  text-align: right;
+}
+cite::before {
+  content: "- ";
+}
+
+.quote blockquote > * {
+  position: relative;
+  z-index: 1;
+}
+
 /* MEDIA QUERIES: iPhone X and up */
 
 @media (min-width: 414px) and (max-width: 768px) {
