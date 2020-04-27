@@ -461,6 +461,7 @@ button {
 
 .footer {
   grid-area: footer;
+  max-width: 500px;
 }
 
 h1 {
@@ -544,7 +545,6 @@ img {
 }
 
 .footer .footer_icon_text {
-  max-width: 70%;
   font-size: 1.2em;
   color: var(--black);
 }
@@ -759,13 +759,21 @@ cite::before {
     background-image: url("");
   }
 
-  h1 {
-    font-size: 4em;
+  #home_bg .item1 {
+    margin-top: 50px;
+  }
+
+  #home_bg .item1 h1 {
+    font-size: 3em;
   }
 
   #slideshow {
     margin: 0px;
     height: 250px;
+  }
+
+  #home_bg .item3 {
+    margin-top: 0px;
   }
 
   .item4 {
@@ -892,6 +900,18 @@ cite::before {
 
     #prof_bg .item3, #ease .item3 {
       height: 1750px;
+    }
+
+    #home_bg .item1 {
+      margin-top: 50px;
+    }
+  
+    #home_bg .item1 h1 {
+      font-size: 3em;
+    }
+
+    #home_bg .item3 {
+      margin-top: 0px;
     }
 
    #ease .item3 {
@@ -1057,6 +1077,18 @@ cite::before {
         "bio bio"
         "footer footer";
       margin-left: 10px;
+      }
+    
+      #home_bg .item1 {
+        margin-top: 50px;
+      }
+    
+      #home_bg .item1 h1 {
+        font-size: 2.5em;
+      }
+  
+      #home_bg .item3 {
+        margin-top: 0px;
       }
 
     #allpress_bg .item3 {
