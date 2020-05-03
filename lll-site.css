@@ -445,9 +445,11 @@ button {
 
 .book_cover {
   /*border: solid 1px;*/
-  width: 250px;
-  height: 400px;
+  width: 200px;
+  height: 350px;
   box-shadow: 0 4px 8px 0 rgba(220, 174, 29, 0.2), 0 6px 20px 0 rgba(220, 174, 29, 0.9);
+  float: left;
+  margin-right: 50px;
 }
 .llc_book_cover {
   border: solid 1px;
