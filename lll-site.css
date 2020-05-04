@@ -450,6 +450,7 @@ button {
   box-shadow: 0 4px 8px 0 rgba(220, 174, 29, 0.2), 0 6px 20px 0 rgba(220, 174, 29, 0.9);
   float: left;
   margin-right: 50px;
+  margin-bottom: 50px;
 }
 
 #llc_bg .bookstore {
@@ -867,6 +868,13 @@ cite::before {
       padding-left: 20px;
       width: 90%;
     }
+
+    .book_cover {
+      box-shadow: 0 4px 8px 0 rgba(220, 174, 29, 0.2), 0 6px 20px 0 rgba(220, 174, 29, 0.9);
+      float: left;
+      margin-right: 50px;
+      margin-bottom: 50px;
+    }
 }
 
 /* iPad & Tablets */
@@ -999,6 +1007,14 @@ cite::before {
   .link-card-ease {
     display: none;
   }
+
+  .book_cover {
+    box-shadow: 0 4px 8px 0 rgba(220, 174, 29, 0.2), 0 6px 20px 0 rgba(220, 174, 29, 0.9);
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 50px;
+  }
+
   /* EASE PAGE */
   #ease .container {
     margin-left: 0px;
@@ -1179,6 +1195,13 @@ cite::before {
 
     #llc_bg .item3 {
       margin-top: 70px;
+    }
+
+    .book_cover {
+      box-shadow: 0 4px 8px 0 rgba(220, 174, 29, 0.2), 0 6px 20px 0 rgba(220, 174, 29, 0.9);
+      float: left;
+      margin-right: 50px;
+      margin-bottom: 50px;
     }
 
     .link-card-ease {
