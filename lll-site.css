@@ -451,6 +451,13 @@ button {
   float: left;
   margin-right: 50px;
 }
+
+#llc_bg .bookstore {
+  margin: 35px 0px 35px 0px;
+  text-align: center;
+  height: 350px;
+}
+
 .llc_book_cover {
   border: solid 1px;
   width: 150px;
