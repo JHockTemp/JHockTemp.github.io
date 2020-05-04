@@ -874,6 +874,8 @@ cite::before {
       float: left;
       margin-right: 50px;
       margin-bottom: 50px;
+      width: 100%;
+      height: auto;
     }
 }
 
@@ -1013,6 +1015,8 @@ cite::before {
     float: left;
     margin-right: 50px;
     margin-bottom: 50px;
+    width: 100%;
+    height: auto;
   }
 
   /* EASE PAGE */
@@ -1202,6 +1206,8 @@ cite::before {
       float: left;
       margin-right: 50px;
       margin-bottom: 50px;
+      width: 100%;
+      height: auto;
     }
 
     .link-card-ease {
