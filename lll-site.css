@@ -19,6 +19,12 @@
   /* border: 5px solid var(--red);
 } */
 
+/* Update text on multiple pages */
+.copyright::before {
+  content: " 2020, 2019 ";
+}
+/* Update text on multiple pages */
+
 #home_bg body {
   background-image: url("lll_cropped.png");
   background-attachment: fixed;
