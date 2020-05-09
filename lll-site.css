@@ -107,6 +107,15 @@ a, a:-webkit-any-link {
   border-bottom: 2px solid var(--gold);
 }
 
+#allpress_bg .mobile_image {
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+  place-self: center;
+  border-bottom: 2px solid var(--gold);
+  margin-top: 100px;
+}
+
 .home_mobile_image {
   height: auto;
   width: 100%;
