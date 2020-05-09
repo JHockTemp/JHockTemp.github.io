@@ -22,6 +22,7 @@
 /* Update text on multiple pages */
 .copyright::before {
   content: " 2020, 2019 ";
+  float: none;
 }
 /* Update text on multiple pages */
 
