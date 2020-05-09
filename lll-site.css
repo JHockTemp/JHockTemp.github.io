@@ -896,6 +896,8 @@ cite::before {
       width: 100%;
       height: auto;
     }
+
+    #medium-widget {padding: 0px 20px;}
 }
 
 /* iPad & Tablets */
@@ -1091,6 +1093,8 @@ cite::before {
   #ease .footer_icon_text {
     max-width: 100%;
   }
+
+  #medium-widget {padding: 0px 20px;}
 }
 
 @media (max-width: 360px) {
@@ -1285,4 +1289,6 @@ cite::before {
     #ease .footer_icon_text {
       max-width: 100%;
     }
+
+    #medium-widget {padding: 0px 20px;}
 }
