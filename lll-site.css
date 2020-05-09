@@ -18,9 +18,7 @@
   background-color: #ddd;
   /* border: 5px solid var(--red);
 } */
-span {
-  float: right;
-}
+
 
 /* Update text on multiple pages */
 .copyright::before {
@@ -28,6 +26,10 @@ span {
   float: none;
 }
 /* Update text on multiple pages */
+
+span.hamburger {
+  float: right;
+}
 
 #home_bg body {
   background-image: url("lll_cropped.png");
