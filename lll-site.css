@@ -18,6 +18,9 @@
   background-color: #ddd;
   /* border: 5px solid var(--red);
 } */
+span {
+  float: right;
+}
 
 /* Update text on multiple pages */
 .copyright::before {
@@ -166,9 +169,7 @@ a, a:-webkit-any-link {
 #dots, #dots1, #dots2, #dots3, #dots4, #dots5, #more5 {
   float: none;
 }
-span {
-  float: right;
-}
+
 
 @media screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
