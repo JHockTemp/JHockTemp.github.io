@@ -288,6 +288,7 @@ a, a:-webkit-any-link {
   background-size: cover;
   background-position: center;
   padding: 10%;
+  height: 400px;
 }
 
 .header-text, .header-text h1 {
@@ -307,7 +308,7 @@ a, a:-webkit-any-link {
 
 .blog_logo, .blog_logo1, .blog_logo2 {
   width: 150px; 
-  margin: 50px 0px 0px 0px;
+  margin: 50px 0px 20px 0px;
 }
 
 #ease .item3 {
@@ -900,7 +901,7 @@ cite::before {
 
     .blog_logo, .blog_logo1, .blog_logo2 {
       width: 75px; 
-      margin: 50px 0px 0px 0px;
+      margin: 50px 0px 20px 0px;
     }
 
     .llc_image {
@@ -1081,9 +1082,9 @@ cite::before {
 
   .blog_logo, .blog_logo1, .blog_logo2 {
     width: 75px; 
-    margin: 50px 0px 0px 0px;
+    margin: 50px 0px 20px 0px;
   }
-  
+
   #ease .item3 {
     margin: 250px 0px 0px 0px;
   }
@@ -1309,7 +1310,7 @@ cite::before {
 
     .blog_logo, .blog_logo1, .blog_logo2 {
       width: 75px; 
-      margin: 50px 0px 0px 0px;
+      margin: 50px 0px 20px 0px;
     }
 
     #ease .item3 h2 {
@@ -1325,5 +1326,8 @@ cite::before {
       max-width: 100%;
     }
 
-    #medium-widget {padding: 0px 20px;}
+    #medium-widget {
+      padding: 0px 20px;
+      margin-top: 75px;
+    }
 }
