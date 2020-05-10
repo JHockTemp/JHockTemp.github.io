@@ -295,9 +295,19 @@ a, a:-webkit-any-link {
   text-align: center;
 }
 
+.item3-blog .footer-blog {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 .ease_image {
   width: 150px; 
   margin: 50px 0px 0px 50px;
+}
+
+.blog_logo, .blog_logo1, .blog_logo2 {
+  width: 150px; 
+  margin: 50px 0px 0px 0px;
 }
 
 #ease .item3 {
@@ -888,6 +898,11 @@ cite::before {
       margin: 50px 0px 10px 20px;
     }
 
+    .blog_logo, .blog_logo1, .blog_logo2 {
+      width: 75px; 
+      margin: 50px 0px 0px 0px;
+    }
+
     .llc_image {
       width: 200px; 
       margin: 42px 0px 10px -45px;
@@ -1064,6 +1079,11 @@ cite::before {
     margin: 50px 0px 10px 20px;
   }
 
+  .blog_logo, .blog_logo1, .blog_logo2 {
+    width: 75px; 
+    margin: 50px 0px 0px 0px;
+  }
+  
   #ease .item3 {
     margin: 250px 0px 0px 0px;
   }
@@ -1285,6 +1305,11 @@ cite::before {
     .ease_image {
       width: 100px; 
       margin: 50px 0px 10px 20px;
+    }
+
+    .blog_logo, .blog_logo1, .blog_logo2 {
+      width: 75px; 
+      margin: 50px 0px 0px 0px;
     }
 
     #ease .item3 h2 {
