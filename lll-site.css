@@ -20,12 +20,37 @@
 } */
 
 
-/* Update text on multiple pages */
+/* Update Copyright & Menu text on multiple pages */
 .copyright::before {
   content: " 2020, 2019 ";
   float: none;
 }
-/* Update text on multiple pages */
+
+.outreach::before {
+  content: "Community Outreach";
+}
+
+.professor::before {
+  content: "About Dr. Long";
+}
+
+.research::before {
+  content: "Research Team";
+}
+
+.media::before {
+  content: "";
+}
+
+.blog::before {
+  content: "Sports Stories"
+}
+
+.resources::before {
+  content: "Student Resources"
+}
+
+/* Update Copyright & Menu text on multiple pages */
 
 span.hamburger {
   float: right;
