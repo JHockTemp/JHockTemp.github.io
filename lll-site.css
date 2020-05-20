@@ -26,6 +26,10 @@
   float: none;
 }
 
+.homepage::before {
+  content: "Homepage"
+}
+
 .outreach::before {
   content: "Community Outreach";
 }
@@ -39,7 +43,7 @@
 }
 
 .media::before {
-  content: "";
+  content: "Media & Press";
 }
 
 .blog::before {
