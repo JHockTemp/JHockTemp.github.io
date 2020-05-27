@@ -479,111 +479,112 @@
 
       </div>
       <!-- END item3 -->
-      <div class="item item4">
-        <img class="home_mobile_image" src="lll_cropped.png" alt="Professor Leroy">
-      </div>
-
-      <div class="item footer">
-
-        <p class="footer_icon_text">Email him or stay updated on new content and book releases through his social media
-          links.</p>
-        <footer>
-          <div class="footer_icons">
-            <ul>
-              <li><a href="mailto:weneedmorellc@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
-              </li>
-
-              <li><a href="https://www.facebook.com/leroy.long.9" target="_blank"><i
-                    class="fab fa-facebook-square"></i></a></li>
-
-              <li><a href="https://twitter.com/LLLIIIPhD" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-
-              <li><a href="https://www.instagram.com/lllthreephd/" target="_blank"><i class="fab fa-instagram"></i></a>
-              </li>
-
-              <li><a href="https://www.youtube.com/channel/UC7eIcWUAUXYDjFQ1KeQem2A" target="_blank"><i
-                    class="fab fa-youtube-square"></i></a></li>
-            </ul>
-          </div>
-          <br><br>
-
-          <p class="footer_icon_text">Proverbs 3:5-6</p>
-
-          <br><br>
-          <div class="footer_desc">
-            <p>&#169; <span class="copyright">WE NEED MORE, LLC. All Rights Reserved.</span></p>
-            <p>Crafted by <a href="http://instagram.com/_jhock" target="_blank">&#64;JHOCK</a></p>
-          </div>
-        </footer>
-      </div>
+    </div>
+    <div class="item item4">
+      <img class="home_mobile_image" src="lll_cropped.png" alt="Professor Leroy">
     </div>
 
-    <script src="lll-site.js"></script>
-    <script>
-      /* Open */
-      function openNav() {
-        document.getElementById("Page_Nav").style.display = "block";
+    <div class="item footer">
+
+      <p class="footer_icon_text">Email him or stay updated on new content and book releases through his social media
+        links.</p>
+      <footer>
+        <div class="footer_icons">
+          <ul>
+            <li><a href="mailto:weneedmorellc@gmail.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
+            </li>
+
+            <li><a href="https://www.facebook.com/leroy.long.9" target="_blank"><i
+                  class="fab fa-facebook-square"></i></a></li>
+
+            <li><a href="https://twitter.com/LLLIIIPhD" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+
+            <li><a href="https://www.instagram.com/lllthreephd/" target="_blank"><i class="fab fa-instagram"></i></a>
+            </li>
+
+            <li><a href="https://www.youtube.com/channel/UC7eIcWUAUXYDjFQ1KeQem2A" target="_blank"><i
+                  class="fab fa-youtube-square"></i></a></li>
+          </ul>
+        </div>
+        <br><br>
+
+        <p class="footer_icon_text">Proverbs 3:5-6</p>
+
+        <br><br>
+        <div class="footer_desc">
+          <p>&#169; <span class="copyright">WE NEED MORE, LLC. All Rights Reserved.</span></p>
+          <p>Crafted by <a href="http://instagram.com/_jhock" target="_blank">&#64;JHOCK</a></p>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <script src="lll-site.js"></script>
+  <script>
+    /* Open */
+    function openNav() {
+      document.getElementById("Page_Nav").style.display = "block";
+    }
+
+    /* Close */
+    function closeNav() {
+      document.getElementById("Page_Nav").style.display = "none";
+    }
+  </script>
+
+  <!-- First Slideshow JS -->
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
       }
-
-      /* Close */
-      function closeNav() {
-        document.getElementById("Page_Nav").style.display = "none";
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
       }
-    </script>
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
 
-    <!-- First Slideshow JS -->
-    <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
+  <script>
+    /* SECOND SLIDESHOW */
+    var slideIndex = 0;
+    showSlides();
 
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
+    function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides2");
+      var dots = document.getElementsByClassName("dot2");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
       }
-
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace("active", "");
       }
-
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) { slideIndex = 1 }
-        if (n < 1) { slideIndex = slides.length }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-      }
-    </script>
-
-    <script>
-      /* SECOND SLIDESHOW */
-      var slideIndex = 0;
-      showSlides();
-
-      function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("mySlides2");
-        var dots = document.getElementsByClassName("dot2");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) { slideIndex = 1 }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace("active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        // dots[slideIndex - 1].className += "active";
-        setTimeout(showSlides, 3000); // Change image every 2 seconds
-      }
-    </script>
-    </script>
+      slides[slideIndex - 1].style.display = "block";
+      // dots[slideIndex - 1].className += "active";
+      setTimeout(showSlides, 3000); // Change image every 2 seconds
+    }
+  </script>
+  </script>
 
 </body>
 
