@@ -1038,6 +1038,11 @@ cite::before {
       width: 308px;
     }
 
+    .item3 .spotify {
+      height: 232px;
+      width: 308px;
+    }  
+
     .fas, .fab {
       font-size: 2em;
       text-align: center;
@@ -1246,6 +1251,11 @@ cite::before {
       height: 315px;
       width: 308px;
     }
+
+    .item3 .spotify {
+      height: 232px;
+      width: 308px;
+    }  
   
     #llc_bg .item4 {
       width: 250px;
