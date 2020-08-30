@@ -550,6 +550,13 @@ h1 {
   margin-top: 0px;
 }
 
+#prof_bg h1 {
+  font-size: 3em;
+  color: var(--black);
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
 h2 {
   margin-top: 0px;
   color: var(--gold);
