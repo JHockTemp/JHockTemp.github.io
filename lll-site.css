@@ -47,11 +47,11 @@
 }
 
 .blog::before {
-  content: "Sports Stories"
+  content: "Sports Stories";
 }
 
 .resources::before {
-  content: "Student Resources"
+  content: "Student Resources";
 }
 
 /* Update Copyright & Menu text on multiple pages */
@@ -866,6 +866,11 @@ cite::before {
       height: 315px;
       width: 308px;
     }
+
+    .item3 .spotify {
+      height: 232px;
+      width: 308px;
+    }  
 
   .fas, .fab {
       font-size: 3em;
