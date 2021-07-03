@@ -331,12 +331,12 @@ a, a:-webkit-any-link {
 }
 
 .ease_image {
-  width: 150px; 
+  width: 150px;
   margin: 50px 0px 0px 50px;
 }
 
 .blog_logo, .blog_logo1, .blog_logo2 {
-  width: 150px; 
+  width: 150px;
   margin: 50px 0px 20px 0px;
 }
 
@@ -356,7 +356,7 @@ a, a:-webkit-any-link {
   overflow: hidden;
 }
 
-.link-card-ease { 
+.link-card-ease {
   box-shadow: 0 4px 8px 0 var(--box), 0 6px 20px 0 rgba(0,0,0,0.19);
   margin: 30px 0 30px 0;
   overflow: hidden;
@@ -400,7 +400,7 @@ button {
   text-align: center;
   font-size: 14px;
   cursor: pointer;
-}
+} 
 
 .text h1 {
   font-size: 4em;
@@ -830,7 +830,7 @@ cite::before {
     }
   #ease_bg {
     background-image: url("");
-    }  
+    }
   #llc_bg body {
       background-image: url("");
     }
@@ -868,7 +868,7 @@ cite::before {
     height: 100%;
     width: auto;
   }
-  
+
   .item3 iframe {
       height: 315px;
       width: 308px;
@@ -877,7 +877,7 @@ cite::before {
     .item3 .spotify {
       height: 232px;
       width: 308px;
-    }  
+    }
 
   .fas, .fab {
       font-size: 3em;
@@ -885,7 +885,7 @@ cite::before {
       margin-right: 10px;
       color: var(--blue);
     }
-    
+
   .footer .footer_icon_text {
       max-width: 100%;
       font-size: 0.9em;
@@ -926,7 +926,7 @@ cite::before {
     #ease .footer {
       margin: 40px;
     }
-  
+
     #ease .footer_icon_text {
       max-width: 100%;
     }
@@ -934,19 +934,19 @@ cite::before {
     #ease .hamburger {
       left: calc(100% - 144px);
     }
-  
+
     .ease_image {
-      width: 100px; 
+      width: 100px;
       margin: 50px 0px 10px 20px;
     }
 
     .blog_logo, .blog_logo1, .blog_logo2 {
-      width: 75px; 
+      width: 75px;
       margin: 50px 0px 20px 0px;
     }
 
     .llc_image {
-      width: 200px; 
+      width: 200px;
       margin: 42px 0px 10px -45px;
     }
 
@@ -1012,7 +1012,7 @@ cite::before {
     #home_bg .item1 {
       margin-top: 50px;
     }
-  
+
     #home_bg .item1 h1 {
       font-size: 2.5em;
     }
@@ -1041,7 +1041,7 @@ cite::before {
     .item3 .spotify {
       height: 232px;
       width: 308px;
-    }  
+    }
 
     .fas, .fab {
       font-size: 2em;
@@ -1049,7 +1049,7 @@ cite::before {
       margin-right: 10px;
       color: var(--blue);
     }
-    
+
     .footer .footer_icon_text {
       max-width: auto;
       font-size: 0.9em;
@@ -1076,7 +1076,7 @@ cite::before {
   }
 
   .llc_image {
-    width: 200px; 
+    width: 200px;
     margin: 42px 0px 10px -45px;
   }
 
@@ -1122,12 +1122,12 @@ cite::before {
   }
 
   .ease_image {
-    width: 100px; 
+    width: 100px;
     margin: 50px 0px 10px 20px;
   }
 
   .blog_logo, .blog_logo1, .blog_logo2 {
-    width: 75px; 
+    width: 75px;
     margin: 50px 0px 20px 0px;
   }
 
@@ -1207,15 +1207,15 @@ cite::before {
         "footer footer";
       margin-left: 10px;
       }
-    
+
       #home_bg .item1 {
         margin-top: 50px;
       }
-    
+
       #home_bg .item1 h1 {
         font-size: 2.5em;
       }
-  
+
       #home_bg .item3 {
         margin-top: 0px;
       }
@@ -1246,7 +1246,7 @@ cite::before {
     #llc_bg #slideshow {
       height: 240px;
     }
-  
+
     .item3 iframe {
       height: 315px;
       width: 308px;
@@ -1255,8 +1255,8 @@ cite::before {
     .item3 .spotify {
       height: 232px;
       width: 308px;
-    }  
-  
+    }
+
     #llc_bg .item4 {
       width: 250px;
     }
@@ -1290,7 +1290,7 @@ cite::before {
       margin-right: 10px;
       color: var(--blue);
     }
-    
+
     .footer .footer_icon_text {
       max-width: 100%;
       font-size: 0.9em;
@@ -1298,7 +1298,7 @@ cite::before {
     }
 
     .llc_image {
-      width: 200px; 
+      width: 200px;
       margin: 42px 0px 10px -45px;
     }
 
@@ -1318,7 +1318,7 @@ cite::before {
     .link-card-ease {
       display: none;
     }
-    
+
     #ease .container {
       margin-left: 0px;
     }
@@ -1353,14 +1353,14 @@ cite::before {
     #ease span {
       left: calc(100% - 144px);
     }
-    
+
     .ease_image {
-      width: 100px; 
+      width: 100px;
       margin: 50px 0px 10px 20px;
     }
 
     .blog_logo, .blog_logo1, .blog_logo2 {
-      width: 75px; 
+      width: 75px;
       margin: 50px 0px 20px 0px;
     }
 
@@ -1368,11 +1368,11 @@ cite::before {
       padding-left: 20px;
       width: 90%;
     }
-  
+
     #ease .footer {
       margin: 20px;
     }
-  
+
     #ease .footer_icon_text {
       max-width: 100%;
     }
