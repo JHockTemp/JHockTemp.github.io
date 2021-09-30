@@ -276,6 +276,24 @@ a, a:-webkit-any-link {
 #llc_bg .mobile_image {
   display:none;
 }
+
+.hiddentxt {
+  z-index:99;
+}
+
+.hiddentxt a {
+  z-index: 99;
+}
+
+.hiddenimg {
+  display: none;
+}
+
+.hiddentxt:hover ~ .hiddenimg {
+  display: block;
+  position: absolute;
+  z-index: 2;
+}
 /* END STYLING for LLC PAGE */
 
 /* STYLING for EASE PAGE */
@@ -400,7 +418,7 @@ button {
   text-align: center;
   font-size: 14px;
   cursor: pointer;
-} 
+}
 
 .text h1 {
   font-size: 4em;
