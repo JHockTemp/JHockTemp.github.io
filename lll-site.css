@@ -299,6 +299,10 @@ a, a:-webkit-any-link {
   position: absolute;
   z-index: 2;
 }
+
+.partner_logos img {
+  width: 200px;
+}
 /* END STYLING for LLC PAGE */
 
 /* STYLING for EASE PAGE */
