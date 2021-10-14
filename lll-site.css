@@ -294,6 +294,12 @@ a, a:-webkit-any-link {
   display: none;
 }
 
+.hiddenimg img {
+  weight: 250px;
+  height: 250px;
+  display: flex;
+}
+
 .hiddentxt:hover ~ .hiddenimg {
   display: block;
   position: absolute;
