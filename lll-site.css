@@ -250,6 +250,11 @@ a, a:-webkit-any-link {
 }
 
 /* STYLING for LLC PAGE */
+.llc_header {
+  color: var(--black);
+  font-size: 1.2em;
+  font-weight: bold;
+}
 
 .llc_image {
   width: 400px;
