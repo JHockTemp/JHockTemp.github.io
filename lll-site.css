@@ -278,6 +278,10 @@ a, a:-webkit-any-link {
   padding-bottom: 30px;
 }
 
+span.txt-rotate {
+  inline-size: 300px;
+  display: inline-block;
+}
 #llc_bg .mobile_image {
   display:none;
 }
