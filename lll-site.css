@@ -916,7 +916,7 @@ cite::before {
       width: 308px;
     }
 
-  .fas, .fab {
+  .fas, .fab, .fa {
       font-size: 3em;
       text-align: center;
       margin-right: 10px;
@@ -1080,7 +1080,7 @@ cite::before {
       width: 308px;
     }
 
-    .fas, .fab {
+    .fas, .fab, .fa {
       font-size: 2em;
       text-align: center;
       margin-right: 10px;
@@ -1321,7 +1321,7 @@ cite::before {
       width: auto;
     }
 
-    .fas, .fab {
+    .fas, .fab, .fa {
       font-size: 2em;
       text-align: center;
       margin-right: 10px;
