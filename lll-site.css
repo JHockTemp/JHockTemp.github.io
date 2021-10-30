@@ -655,15 +655,15 @@ img {
   color: var(--blue2);
 }
 
-/* FONT AWESOME ICONS */
-.fas, .fab {
+/* FOOTER FONT AWESOME ICONS */
+.fas, .fab, .fa {
   font-size: 3em;
   text-align: center;
   margin-right: 10px;
   color: #aaa;
 }
 
-.fas:hover, .fab:hover {
+.fas:hover, .fab:hover, .fa:hover {
   color: var(--blue);
 }
 
