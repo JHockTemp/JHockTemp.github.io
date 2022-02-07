@@ -15,10 +15,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="lll-site.css">
-  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link href="http://www.w3schools.com/lib/w3.css" rel="stylesheet"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <title>Outreach | We Need More, LLC</title>
   <style>
-      .mySlides {display:none;}
+    /*  .mySlides {display:none;} */
   </style>
 </head>
 
@@ -191,41 +192,47 @@
 
     <h3> 2) <strong>Award Scholarships - with SoLoved and the Minority Athletic Directors Association (MADA)</strong></h3>
 
-    <div class="w3-content w3-display-container">
-      <img class="mySlides" src="Images/weneedmore/scholarship7.jpeg" style="width:100%">
-      <img class="mySlides" src="Images/weneedmore/scholarship.jpeg" style="width:100%">
-      <img class="mySlides" src="Images/weneedmore/scholarship1.jpeg" style="width:100%">
-      <img class="mySlides" src="Images/weneedmore/scholarship2.jpeg" style="width:100%">
-      <img class="mySlides" src="Images/weneedmore/scholarship3.jpeg" style="width:100%">
-      <img class="mySlides" src="Images/weneedmore/scholarship4.jpeg" style="width:100%">
-      <img class="mySlides" src="Images/weneedmore/scholarship5.jpeg" style="width:100%">
-      <img class="mySlides" src="Images/weneedmore/scholarship6.jpeg" style="width:100%">
-      <img class="mySlides" src="Images/scholarship.jpeg" style="width:100%">
+    <div class="slideshow-container">
+      <div class="mySlides1">
+          <img src="Images/weneedmore/scholarship7.jpeg" style="width:100%">
+      </div>
 
+      <div class="mySlides1">
+          <img src="Images/weneedmore/scholarship.jpeg" style="width:100%">
+      </div>
 
-      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      <div class="mySlides1">
+          <img src="Images/weneedmore/scholarship1.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides1">
+          <img src="Images/weneedmore/scholarship2.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides1">
+          <img src="Images/weneedmore/scholarship3.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides1">
+          <img src="Images/weneedmore/scholarship4.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides1">
+          <img src="Images/weneedmore/scholarship5.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides1">
+          <img src="Images/weneedmore/scholarship6.jpeg" style="width:100%">
+      </div>
+
+      <div class="mySlides1">
+          <img src="Images/scholarship.jpeg" style="width:100%">
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
     </div>
 
-    <script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";
-  }
-  x[slideIndex-1].style.display = "block";
-}
-</script>
 
 <p> Stats: Helped award $250-500 scholarships to six students</p>
 <p> Press: </p>
@@ -345,17 +352,29 @@ function showDivs(n) {
           <p class="llc_header"> Testimonials </p>
         </div>
 
-        <div class="w3-content w3-display-container">
-          <img class="myTestimonial" src="Images/weneedmore/testimonials.jpeg" style="width:100%">
-          <img class="myTestimonial" src="Images/weneedmore/testimonial1.jpeg" style="width:100%">
-          <img class="myTestimonial" src="Images/weneedmore/testimonial2.jpeg" style="width:100%">
-          <img class="myTestimonial" src="Images/weneedmore/testimonial3.jpeg" style="width:100%">
+        <div class="slideshow-container">
 
-          <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-          <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+          <div class="mySlides2">
+            <img src="Images/weneedmore/testimonials.jpeg" style="width:100%">
+          </div>
+
+          <div class="mySlides2">
+            <img src="Images/weneedmore/testimonial1.jpeg" style="width:100%">
+          </div>
+
+          <div class="mySlides2">
+            <img src="Images/weneedmore/testimonial2.jpeg" style="width:100%">
+          </div>
+
+          <div class="mySlides2">
+            <img src="Images/weneedmore/testimonial3.jpeg" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
         </div>
 
-        <script>
+      <!--  <script>
             var slideIndex = 1;
             showDivs(slideIndex);
 
@@ -373,7 +392,7 @@ function showDivs(n) {
               }
               x[slideIndex-1].style.display = "block";
             }
-        </script>
+        </script> -->
       </div>
 
 <!-- TESTIMONIALS -->
@@ -472,6 +491,7 @@ function showDivs(n) {
     </div>
   </div>
   <script src="lll-site.js"></script>
+
   <script>
     /* Open */
     function openNav() {
@@ -494,6 +514,7 @@ function showDivs(n) {
         .end()
         .appendTo('#slideshow');
     }, 3000);
+
   </script>
 
 </body>
