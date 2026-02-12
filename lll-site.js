@@ -77,48 +77,5 @@ function showSlides(n, no) {
 }
 
 
-  // Replace with your Published CSV URL from Google Sheets
-  const csvUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTVPdwRX2UFQKNxcCO1KuAvDxKYWiEBALBEri2OGgrzi2EONiIWCzKlOsgNJMsWhwSoL1fetvKxfqmg/pub?output=csv';
 
-  async function updateResourceLinks() {
-    try {
-      const response = await fetch(csvUrl);
-      const text = await response.text();
-      
-      // Split text into rows and remove the header row
-      const rows = text.split('\n').slice(1);
-
-      rows.forEach(row => {
-        // Use a regex to split by comma but ignore commas inside quotes
-        const cols = row.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/);
-        
-        if (cols.length >= 3) {
-          const title = cols[0].replace(/"/g, "").trim();
-          const url = cols[1].replace(/"/g, "").trim();
-          const category = cols[2].replace(/"/g, "").trim();
-
-          // Find the <ul> by ID (e.g., "Research-links")
-          const listElement = document.getElementById(`${category}-links`);
-
-          if (listElement) {
-            // Create the <li><a href="...">Title</a></li> structure
-            const li = document.createElement('li');
-            const a = document.createElement('a');
-            
-            a.href = url;
-            a.textContent = title;
-            a.target = "_blank"; // Opens in new tab
-            
-            li.appendChild(a);
-            listElement.appendChild(li);
-          }
-        }
-      });
-    } catch (err) {
-      console.error("Could not load resources:", err);
-    }
-  }
-
-  // Run the function when the page finishes loading
-  window.addEventListener('DOMContentLoaded', updateResourceLinks);
 
