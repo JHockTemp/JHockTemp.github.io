@@ -786,8 +786,8 @@ button.collapsible::after {
 
 /* Style the button that is used to open and close the collapsible content */
 .collapsible {
-  background-color: #eee;
-  color: var(--black);
+  background-color: #777;
+  color: white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -796,6 +796,19 @@ button.collapsible::after {
   outline: none;
   font-size: 15px;
 }
+
+.content {
+  padding: 0 18px;
+  display: none; /* Hidden by default */
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.more-content {
+  display: block;
+  padding: 10px 0;
+}
+
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
   background-color: #ccc;
