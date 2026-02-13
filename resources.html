@@ -309,17 +309,20 @@
         <details class="collapsible">
           <summary><strong>SCHOLARSHIPS & ORGANIZATIONS</strong></summary>
 
-          <P>SCHOLARSHIPS:</P>
             <button type="button" class="collapsible">Scholarships</button>
             <div class="content">
-              <span class="collapsible-wrapper"> <ul id="scholarship-list"> </ul>
+              <span class="more"> 
+                <ul id="scholarship-list"> 
+                </ul>
               </span>
             </div>
           
           <P>ORGANIZATIONS:</P>
             <button type="button" class="collapsible">Organizations</button>
             <div class="content">
-              <span class="collapsible-wrapper"> <ul id="organization-list"> </ul>
+              <span class="more"> 
+                <ul id="organization-list"> 
+                </ul>
               </span>
             </div>
         </details>
@@ -1234,56 +1237,53 @@
   <!-- TRUNCATE WEBLINK LISTS -->
   
 <script>
-  // 1. COLLAPSIBLE LOGIC
-  // This handles the clicking of the buttons
-  var coll = document.getElementsByClassName("collapsible");
-  for (var i = 0; i < coll.length; i++) {
-    coll[i].addEventListener("click", function() {
+  // --- 1. HANDLE COLLAPSIBLE BUTTONS ---
+  const collapsibles = document.getElementsByClassName("collapsible");
+  
+  for (let i = 0; i < collapsibles.length; i++) {
+    collapsibles[i].addEventListener("click", function() {
       this.classList.toggle("active");
-      var content = this.nextElementSibling;
-      if (content.style.display === "block") {
-        content.style.display = "none";
-      } else {
-        content.style.display = "block";
-      }
+      const content = this.nextElementSibling;
+      // Toggle display between block and none
+      content.style.display = (content.style.display === "block") ? "none" : "block";
     });
   }
 
-  // 2. GOOGLE SHEETS INTEGRATION
-  const sheetUrl = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTVPdwRX2UFQKNxcCO1KuAvDxKYWiEBALBEri2OGgrzi2EONiIWCzKlOsgNJMsWhwSoL1fetvKxfqmg/pub?output=csv';
+  // --- 2. FETCH GOOGLE SHEETS DATA ---
+  const csvUrl = 'YOUR_PUBLISHED_CSV_URL_HERE'; // MUST BE THE CSV LINK
 
-  async function fetchResources() {
+  async function loadResources() {
     try {
-      const response = await fetch(sheetUrl);
-      const csvData = await response.text();
-      const rows = csvData.split('\n').slice(1); // Skip header row
+      const response = await fetch(csvUrl);
+      const text = await response.text();
+      const rows = text.split('\n').slice(1); // Skip header
 
       rows.forEach(row => {
-        // Splitting by comma, handling potential quotes
-        const columns = row.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/);
+        // Regex to handle commas inside quotes in spreadsheet cells
+        const cols = row.split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/);
         
-        if (columns.length >= 3) {
-          const title = columns[0].replace(/"/g, "").trim();
-          const url = columns[1].replace(/"/g, "").trim();
-          const category = columns[2].replace(/"/g, "").toLowerCase().trim();
+        if (cols.length >= 3) {
+          const title = cols[0].replace(/"/g, "").trim();
+          const url = cols[1].replace(/"/g, "").trim();
+          const category = cols[2].replace(/"/g, "").toLowerCase().trim();
 
-          // Match the category from the sheet to the UL id (e.g., "research-list")
-          const listElement = document.getElementById(`${category}-list`);
-
-          if (listElement) {
+          // Matches "research" category to "research-list" ID
+          const targetList = document.getElementById(`${category}-list`);
+          
+          if (targetList) {
             const li = document.createElement('li');
             li.innerHTML = `<a href="${url}" target="_blank">${title}</a>`;
-            listElement.appendChild(li);
+            targetList.appendChild(li);
           }
         }
       });
-    } catch (error) {
-      console.error("Error loading resources:", error);
+    } catch (err) {
+      console.error("Error fetching sheet data:", err);
     }
   }
 
-  // Load the data when the page opens
-  fetchResources();
+  // Run the fetch on page load
+  window.addEventListener('DOMContentLoaded', loadResources);
 </script>
 </body>
 
